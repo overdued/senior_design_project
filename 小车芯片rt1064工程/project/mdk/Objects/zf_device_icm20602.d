@@ -1,0 +1,32 @@
+./objects/zf_device_icm20602.o: \
+  ..\..\libraries\zf_device\zf_device_icm20602.c \
+  ..\..\libraries\zf_common\zf_common_clock.h \
+  ..\..\libraries\zf_common\zf_common_typedef.h \
+  F:\keil5\ARM\ARMCLANG\include\stdio.h \
+  F:\keil5\ARM\ARMCLANG\include\stdint.h \
+  F:\keil5\ARM\ARMCLANG\include\stdbool.h \
+  F:\keil5\ARM\ARMCLANG\include\stdarg.h \
+  F:\keil5\ARM\ARMCLANG\include\string.h \
+  F:\keil5\ARM\ARMCLANG\include\stdlib.h \
+  ..\..\libraries\sdk\drives\fsl_common.h \
+  F:\keil5\ARM\ARMCLANG\include\assert.h \
+  F:\keil5\ARM\ARMCLANG\include\stddef.h \
+  ..\..\libraries\sdk\deceive\fsl_device_registers.h \
+  ..\..\libraries\sdk\deceive\MIMXRT1064.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\core_cm7.h \
+  E:\CCCar\CCCar\project\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_version.h \
+  E:\CCCar\CCCar\project\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_compiler.h \
+  E:\CCCar\CCCar\project\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_armclang.h \
+  E:\CCCar\CCCar\project\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\mpu_armv7.h \
+  E:\CCCar\CCCar\project\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cachel1_armv7.h \
+  ..\..\libraries\sdk\deceive\system_MIMXRT1064.h \
+  ..\..\libraries\sdk\deceive\MIMXRT1064_features.h \
+  ..\..\libraries\sdk\drives\fsl_common_arm.h \
+  ..\..\libraries\sdk\drives\fsl_clock.h \
+  ..\..\libraries\zf_common\zf_common_debug.h \
+  ..\..\libraries\zf_driver\zf_driver_delay.h \
+  ..\..\libraries\zf_driver\zf_driver_spi.h \
+  ..\..\libraries\zf_driver\zf_driver_soft_iic.h \
+  ..\..\libraries\zf_driver\zf_driver_gpio.h \
+  ..\..\libraries\sdk\drives\fsl_gpio.h \
+  ..\..\libraries\zf_device\zf_device_icm20602.h

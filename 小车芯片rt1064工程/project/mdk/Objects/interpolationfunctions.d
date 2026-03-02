@@ -1,0 +1,24 @@
+./objects/interpolationfunctions.o: \
+  ..\..\libraries\components\CMSIS\DSP\Source\InterpolationFunctions\InterpolationFunctions.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\InterpolationFunctions\arm_bilinear_interp_f32.c \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\interpolation_functions.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_math_types.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_compiler.h \
+  F:\keil5\ARM\ARMCLANG\include\stdint.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_armclang.h \
+  F:\keil5\ARM\ARMCLANG\include\string.h \
+  F:\keil5\ARM\ARMCLANG\include\math.h \
+  F:\keil5\ARM\ARMCLANG\include\float.h \
+  F:\keil5\ARM\ARMCLANG\include\limits.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_math_memory.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\none.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\utils.h \
+  ..\..\libraries\components\CMSIS\DSP\Source\InterpolationFunctions\arm_bilinear_interp_q15.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\InterpolationFunctions\arm_bilinear_interp_q31.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\InterpolationFunctions\arm_bilinear_interp_q7.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\InterpolationFunctions\arm_linear_interp_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\InterpolationFunctions\arm_linear_interp_q15.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\InterpolationFunctions\arm_linear_interp_q31.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\InterpolationFunctions\arm_linear_interp_q7.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\InterpolationFunctions\arm_spline_interp_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\InterpolationFunctions\arm_spline_interp_init_f32.c

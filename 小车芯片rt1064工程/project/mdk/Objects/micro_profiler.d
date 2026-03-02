@@ -1,0 +1,22 @@
+./objects/micro_profiler.o: \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\micro\micro_profiler.cpp \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\micro\micro_profiler.h \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\cstdint \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\__assert \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\__config \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\__verbose_abort \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\__availability \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\stdint.h \
+  F:\keil5\ARM\ARMCLANG\include\stdint.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\micro\compatibility.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\kernels\internal\compatibility.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\kernels\op_macros.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\micro\debug_log.h \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\cstdlib \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\stdlib.h \
+  F:\keil5\ARM\ARMCLANG\include\stdlib.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\micro\micro_error_reporter.h \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\cstdarg \
+  F:\keil5\ARM\ARMCLANG\include\stdarg.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\core\api\error_reporter.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\micro\micro_time.h

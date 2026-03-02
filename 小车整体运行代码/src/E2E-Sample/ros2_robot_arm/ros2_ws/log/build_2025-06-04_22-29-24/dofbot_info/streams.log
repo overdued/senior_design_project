@@ -1,0 +1,219 @@
+[0.048s] Invoking command in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info -- -j3 -l3
+[0.781s] [  3%] Built target dofbot_info__cpp
+[0.782s] [  3%] Built target ament_cmake_python_copy_dofbot_info
+[0.782s] [ 12%] Built target dofbot_info__rosidl_typesupport_cpp
+[0.782s] [ 22%] Built target dofbot_info__rosidl_typesupport_fastrtps_cpp
+[0.782s] [ 32%] Built target dofbot_info__rosidl_typesupport_introspection_cpp
+[0.787s] gmake: Warning: File 'Makefile' has modification time 3431892 s in the future
+[0.788s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 3431891 s in the future
+[0.789s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__cpp.dir/progress.make' has modification time 3431891 s in the future
+[0.790s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.791s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__cpp.dir/progress.make' has modification time 3431891 s in the future
+[0.793s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.794s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_dofbot_info.dir/progress.make' has modification time 3431891 s in the future
+[0.796s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.797s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_dofbot_info.dir/progress.make' has modification time 3431891 s in the future
+[0.798s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.799s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_cpp.dir/flags.make' has modification time 3431891 s in the future
+[0.800s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.801s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_cpp.dir/flags.make' has modification time 3431891 s in the future
+[0.802s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.803s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 3431891 s in the future
+[0.804s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.806s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 3431891 s in the future
+[0.806s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.807s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 3431891 s in the future
+[0.808s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.808s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 3431891 s in the future
+[0.808s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.808s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_dofbot_info_egg.dir/progress.make' has modification time 3431891 s in the future
+[0.808s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.808s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_dofbot_info_egg.dir/progress.make' has modification time 3431891 s in the future
+[1.133s] running egg_info
+[1.135s] writing dofbot_info.egg-info/PKG-INFO
+[1.137s] writing dependency_links to dofbot_info.egg-info/dependency_links.txt
+[1.137s] writing top-level names to dofbot_info.egg-info/top_level.txt
+[1.144s] reading manifest file 'dofbot_info.egg-info/SOURCES.txt'
+[1.146s] writing manifest file 'dofbot_info.egg-info/SOURCES.txt'
+[1.216s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.232s] [ 32%] Built target ament_cmake_python_build_dofbot_info_egg
+[1.238s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_generator_c.dir/flags.make' has modification time 3431890 s in the future
+[1.257s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.260s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_generator_c.dir/flags.make' has modification time 3431890 s in the future
+[1.261s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.277s] [ 41%] Built target dofbot_info__rosidl_generator_c
+[1.284s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 3431890 s in the future
+[1.305s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.309s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 3431890 s in the future
+[1.311s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.327s] [ 51%] Built target dofbot_info__rosidl_typesupport_fastrtps_c
+[1.333s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_c.dir/flags.make' has modification time 3431890 s in the future
+[1.352s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.356s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_c.dir/flags.make' has modification time 3431890 s in the future
+[1.358s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.372s] [ 61%] Built target dofbot_info__rosidl_typesupport_c
+[1.377s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 3431890 s in the future
+[1.396s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.400s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 3431890 s in the future
+[1.401s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.417s] [ 70%] Built target dofbot_info__rosidl_typesupport_introspection_c
+[1.422s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info.dir/progress.make' has modification time 3431890 s in the future
+[1.440s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.442s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info.dir/progress.make' has modification time 3431890 s in the future
+[1.443s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.458s] [ 70%] Built target dofbot_info
+[1.463s] gmake[2]: Warning: File 'dofbot_info__py/CMakeFiles/dofbot_info__py.dir/progress.make' has modification time 3431890 s in the future
+[1.482s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.485s] gmake[2]: Warning: File 'dofbot_info__py/CMakeFiles/dofbot_info__py.dir/progress.make' has modification time 3431890 s in the future
+[1.485s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.500s] [ 74%] Built target dofbot_info__py
+[1.510s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_generator_py.dir/flags.make' has modification time 3431890 s in the future
+[1.536s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.540s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_generator_py.dir/flags.make' has modification time 3431890 s in the future
+[1.551s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.570s] [ 80%] Built target dofbot_info__rosidl_generator_py
+[1.577s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 3431890 s in the future
+[1.599s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.603s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 3431890 s in the future
+[1.604s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.622s] [ 87%] Built target dofbot_info__rosidl_typesupport_fastrtps_c__pyext
+[1.631s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 3431890 s in the future
+[1.654s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.659s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 3431890 s in the future
+[1.660s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.678s] [ 93%] Built target dofbot_info__rosidl_typesupport_c__pyext
+[1.687s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 3431890 s in the future
+[1.706s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.709s] gmake[2]: Warning: File 'CMakeFiles/dofbot_info__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 3431890 s in the future
+[1.710s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.727s] [100%] Built target dofbot_info__rosidl_typesupport_introspection_c__pyext
+[1.728s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.751s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[1.753s] Invoked command in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info -- -j3 -l3
+[1.774s] Invoking command in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info
+[1.800s] -- Install configuration: ""
+[1.803s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/ament_index/resource_index/rosidl_interfaces/dofbot_info
+[1.805s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info
+[1.807s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv
+[1.810s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/kinemarics.h
+[1.811s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail
+[1.813s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__functions.h
+[1.816s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__struct.h
+[1.816s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__type_support.h
+[1.817s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__functions.c
+[1.820s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg
+[1.820s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg/rosidl_generator_c__visibility_control.h
+[1.821s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/library_path.sh
+[1.821s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/library_path.dsv
+[1.827s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_generator_c.so
+[1.827s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info
+[1.828s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv
+[1.828s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail
+[1.829s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__rosidl_typesupport_fastrtps_c.h
+[1.829s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg
+[1.829s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.837s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_fastrtps_c.so
+[1.838s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info
+[1.838s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv
+[1.839s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail
+[1.839s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__type_support.c
+[1.840s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__rosidl_typesupport_introspection_c.h
+[1.840s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg
+[1.840s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.849s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_introspection_c.so
+[1.851s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_c.so
+[1.851s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info
+[1.852s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv
+[1.852s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/kinemarics.hpp
+[1.852s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail
+[1.852s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__builder.hpp
+[1.853s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__type_support.hpp
+[1.853s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__struct.hpp
+[1.853s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__traits.hpp
+[1.853s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg
+[1.853s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.853s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info
+[1.854s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv
+[1.854s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail
+[1.854s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__rosidl_typesupport_fastrtps_cpp.hpp
+[1.854s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/dds_fastrtps
+[1.854s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg
+[1.854s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.869s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_fastrtps_cpp.so
+[1.870s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info
+[1.870s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv
+[1.870s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail
+[1.870s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__rosidl_typesupport_introspection_cpp.hpp
+[1.870s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__type_support.cpp
+[1.870s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_introspection_cpp.so
+[1.871s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_cpp.so
+[1.871s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/pythonpath.sh
+[1.871s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/pythonpath.dsv
+[1.871s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info-0.0.0-py3.10.egg-info
+[1.871s] -- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.871s] -- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info-0.0.0-py3.10.egg-info/top_level.txt
+[1.871s] -- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info-0.0.0-py3.10.egg-info/PKG-INFO
+[1.872s] -- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.872s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info
+[1.872s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/srv
+[1.872s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/srv/_kinemarics.py
+[1.872s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/srv/__init__.py
+[1.872s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/srv/_kinemarics_s.c
+[1.873s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.885s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/_dofbot_info_s.ep.rosidl_typesupport_introspection_c.c
+[1.885s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/_dofbot_info_s.ep.rosidl_typesupport_c.c
+[1.885s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.886s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/__init__.py
+[1.886s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/_dofbot_info_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.886s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/libdofbot_info__rosidl_generator_py.so
+[1.886s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.970s] Listing '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info'...
+[1.972s] Listing '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/srv'...
+[1.986s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.988s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.991s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.994s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_generator_py.so
+[1.996s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/srv/Kinemarics.idl
+[1.997s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/srv/Kinemarics.srv
+[2.002s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/srv/Kinemarics_Request.msg
+[2.002s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/srv/Kinemarics_Response.msg
+[2.002s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/ament_index/resource_index/package_run_dependencies/dofbot_info
+[2.003s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/ament_index/resource_index/parent_prefix_path/dofbot_info
+[2.003s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/ament_prefix_path.sh
+[2.003s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/ament_prefix_path.dsv
+[2.003s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/path.sh
+[2.003s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/path.dsv
+[2.003s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/local_setup.bash
+[2.004s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/local_setup.sh
+[2.004s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/local_setup.zsh
+[2.004s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/local_setup.dsv
+[2.004s] -- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/package.dsv
+[2.010s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/ament_index/resource_index/packages/dofbot_info
+[2.011s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_generator_cExport.cmake
+[2.012s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_generator_cExport-noconfig.cmake
+[2.012s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_typesupport_fastrtps_cExport.cmake
+[2.012s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.013s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_introspection_cExport.cmake
+[2.013s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.014s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_cExport.cmake
+[2.014s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_cExport-noconfig.cmake
+[2.015s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_generator_cppExport.cmake
+[2.016s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.016s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.017s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_introspection_cppExport.cmake
+[2.017s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.019s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_cppExport.cmake
+[2.019s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_cppExport-noconfig.cmake
+[2.019s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_generator_pyExport.cmake
+[2.020s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_generator_pyExport-noconfig.cmake
+[2.020s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/rosidl_cmake-extras.cmake
+[2.020s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.020s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/ament_cmake_export_libraries-extras.cmake
+[2.021s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/ament_cmake_export_targets-extras.cmake
+[2.021s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.021s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.021s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.021s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_infoConfig.cmake
+[2.021s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_infoConfig-version.cmake
+[2.022s] -- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/package.xml
+[2.026s] Invoked command in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info

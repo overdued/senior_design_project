@@ -1,0 +1,20 @@
+[3.227s] Invoking command in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/robot_arm_bringup': PYTHONPATH=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_arm_bringup build --build-base /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/build install --record /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/install.log --single-version-externally-managed install_data
+[3.942s] running egg_info
+[3.943s] writing ../../build/robot_arm_bringup/robot_arm_bringup.egg-info/PKG-INFO
+[3.943s] writing dependency_links to ../../build/robot_arm_bringup/robot_arm_bringup.egg-info/dependency_links.txt
+[3.943s] writing entry points to ../../build/robot_arm_bringup/robot_arm_bringup.egg-info/entry_points.txt
+[3.943s] writing requirements to ../../build/robot_arm_bringup/robot_arm_bringup.egg-info/requires.txt
+[3.947s] writing top-level names to ../../build/robot_arm_bringup/robot_arm_bringup.egg-info/top_level.txt
+[3.948s] reading manifest file '../../build/robot_arm_bringup/robot_arm_bringup.egg-info/SOURCES.txt'
+[3.950s] writing manifest file '../../build/robot_arm_bringup/robot_arm_bringup.egg-info/SOURCES.txt'
+[3.950s] running build
+[3.954s] running build_py
+[3.954s] running install
+[3.955s] running install_lib
+[3.955s] running install_data
+[3.955s] running install_egg_info
+[3.959s] removing '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/lib/python3.10/site-packages/robot_arm_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[3.960s] Copying ../../build/robot_arm_bringup/robot_arm_bringup.egg-info to /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/lib/python3.10/site-packages/robot_arm_bringup-0.0.0-py3.10.egg-info
+[3.962s] running install_scripts
+[4.018s] writing list of installed files to '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/install.log'
+[4.127s] Invoked command in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/robot_arm_bringup' returned '0': PYTHONPATH=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_arm_bringup build --build-base /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/build install --record /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/install.log --single-version-externally-managed install_data

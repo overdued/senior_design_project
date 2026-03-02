@@ -1,0 +1,6 @@
+package init file 'dofbot_garbage_yolov5/utils/__init__.py' not found (or not a regular file)
+  File "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/main.py", line 188
+    elif:
+        ^
+SyntaxError: invalid syntax
+

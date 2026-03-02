@@ -1,0 +1,276 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 264241152 bytes. Error detail: G1 virtual space
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   This process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Zero Based Compressed Oops mode in which the Java heap is
+#     placed in the first 32GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 32GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_windows.cpp:3825), pid=4468, tid=35904
+#
+# JRE version:  (17.0.12+1) (build )
+# Java VM: OpenJDK 64-Bit Server VM (17.0.12+1-b1087.25, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dfile.encoding=GBK D:\Deveco\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar --mode hap --force true --lib-path D:\Deveco\MyApplication\entry\build\default\intermediates\stripped_native_libs\default --json-path D:\Deveco\MyApplication\entry\build\default\intermediates\package\default\module.json --resources-path D:\Deveco\MyApplication\entry\build\default\intermediates\res\default\resources --index-path D:\Deveco\MyApplication\entry\build\default\intermediates\res\default\resources.index --pack-info-path D:\Deveco\MyApplication\entry\build\default\outputs\default\pack.info --out-path D:\Deveco\MyApplication\entry\build\default\outputs\default\entry-default-unsigned.hap --ets-path D:\Deveco\MyApplication\entry\build\default\intermediates\loader_out\default\ets --pkg-context-path D:\Deveco\MyApplication\entry\build\default\intermediates\loader\default\pkgContextInfo.json
+
+Host: 13th Gen Intel(R) Core(TM) i5-13500H, 16 cores, 15G,  Windows 11 , 64 bit Build 22621 (10.0.22621.5124)
+Time: Mon Aug 25 17:37:37 2025  Windows 11 , 64 bit Build 22621 (10.0.22621.5124) elapsed time: 0.009737 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000002144e68dcb0):  JavaThread "Unknown thread" [_thread_in_vm, id=35904, stack(0x0000003905800000,0x0000003905900000)]
+
+Stack: [0x0000003905800000,0x0000003905900000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x688dd9]
+V  [jvm.dll+0x842eaa]
+V  [jvm.dll+0x844aee]
+V  [jvm.dll+0x845153]
+V  [jvm.dll+0x24ba3f]
+V  [jvm.dll+0x685ba9]
+V  [jvm.dll+0x67a45a]
+V  [jvm.dll+0x30c60b]
+V  [jvm.dll+0x313ab6]
+V  [jvm.dll+0x363c6e]
+V  [jvm.dll+0x363e9f]
+V  [jvm.dll+0x2e2658]
+V  [jvm.dll+0x2e3594]
+V  [jvm.dll+0x813b31]
+V  [jvm.dll+0x3719c1]
+V  [jvm.dll+0x7f2626]
+V  [jvm.dll+0x3f563f]
+V  [jvm.dll+0x3f7191]
+C  [jli.dll+0x528f]
+C  [ucrtbase.dll+0x29333]
+C  [KERNEL32.DLL+0x1259d]
+C  [ntdll.dll+0x5af38]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00007ffd3e110f58, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x000002144e6fcbd0 GCTaskThread "GC Thread#0" [stack: 0x0000003905900000,0x0000003905a00000] [id=68596]
+  0x000002144e70e640 ConcurrentGCThread "G1 Main Marker" [stack: 0x0000003905a00000,0x0000003905b00000] [id=57080]
+  0x000002144e70f060 ConcurrentGCThread "G1 Conc#0" [stack: 0x0000003905b00000,0x0000003905c00000] [id=73408]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffd3d8c31c7]
+
+VM state: not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x000002144e6895d0] Heap_lock - owner thread: 0x000002144e68dcb0
+
+Heap address: 0x0000000704e00000, size: 4018 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+
+CDS archive(s) mapped at: [0x0000000000000000-0x0000000000000000-0x0000000000000000), size 0, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 1.
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0, Narrow klass range: 0x0
+
+GC Precious Log:
+<Empty>
+
+Heap:
+ garbage-first heap   total 0K, used 0K [0x0000000704e00000, 0x0000000800000000)
+  region size 2048K, 0 young (0K), 0 survivors (0K)
+ Metaspace       used 0K, committed 0K, reserved 0K
+  class space    used 0K, committed 0K, reserved 0K
+
+Heap Regions: E=young(eden), S=young(survivor), O=old, HS=humongous(starts), HC=humongous(continues), CS=collection set, F=free, OA=open archive, CA=closed archive, TAMS=top-at-mark-start (previous, next)
+
+Card table byte_map: [0x0000021461e70000,0x0000021462650000] _byte_map_base: 0x000002145e649000
+
+Marking Bits (Prev, Next): (CMBitMap*) 0x000002144e6fe200, (CMBitMap*) 0x000002144e6fe240
+ Prev Bits: [0x0000021462e30000, 0x0000021466cf8000)
+ Next Bits: [0x0000021466d00000, 0x000002146abc8000)
+
+GC Heap History (0 events):
+No events
+
+Dll operation events (1 events):
+Event: 0.006 Loaded shared library D:\Deveco\DevEco Studio\jbr\bin\java.dll
+
+Deoptimization events (0 events):
+No events
+
+Classes unloaded (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+VM Operations (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff6f01d0000 - 0x00007ff6f01da000 	D:\Deveco\DevEco Studio\jbr\bin\java.exe
+0x00007ffebcb70000 - 0x00007ffebcd87000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffebb810000 - 0x00007ffebb8d4000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ffeb9c80000 - 0x00007ffeba053000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ffeba510000 - 0x00007ffeba621000 	C:\Windows\System32\ucrtbase.dll
+0x00007ffeb4c00000 - 0x00007ffeb4c17000 	D:\Deveco\DevEco Studio\jbr\bin\jli.dll
+0x00007ffea40e0000 - 0x00007ffea40fb000 	D:\Deveco\DevEco Studio\jbr\bin\VCRUNTIME140.dll
+0x00007ffeba8c0000 - 0x00007ffebaa71000 	C:\Windows\System32\USER32.dll
+0x00007ffeba060000 - 0x00007ffeba086000 	C:\Windows\System32\win32u.dll
+0x00007ffebc4a0000 - 0x00007ffebc4c9000 	C:\Windows\System32\GDI32.dll
+0x00007ffeba6f0000 - 0x00007ffeba80b000 	C:\Windows\System32\gdi32full.dll
+0x00007ffea22e0000 - 0x00007ffea2578000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.5124_none_270e8f4f7386d69d\COMCTL32.dll
+0x00007ffeba470000 - 0x00007ffeba50a000 	C:\Windows\System32\msvcp_win.dll
+0x00007ffebc930000 - 0x00007ffebc9d7000 	C:\Windows\System32\msvcrt.dll
+0x00007ffebc8f0000 - 0x00007ffebc921000 	C:\Windows\System32\IMM32.DLL
+0x00007ffeb4c30000 - 0x00007ffeb4c3c000 	D:\Deveco\DevEco Studio\jbr\bin\vcruntime140_1.dll
+0x00007ffe97a80000 - 0x00007ffe97b0d000 	D:\Deveco\DevEco Studio\jbr\bin\msvcp140.dll
+0x00007ffd3d5d0000 - 0x00007ffd3e255000 	D:\Deveco\DevEco Studio\jbr\bin\server\jvm.dll
+0x00007ffebc7b0000 - 0x00007ffebc861000 	C:\Windows\System32\ADVAPI32.dll
+0x00007ffeba810000 - 0x00007ffeba8b8000 	C:\Windows\System32\sechost.dll
+0x00007ffeba190000 - 0x00007ffeba1b8000 	C:\Windows\System32\bcrypt.dll
+0x00007ffebc690000 - 0x00007ffebc7a4000 	C:\Windows\System32\RPCRT4.dll
+0x00007ffea0170000 - 0x00007ffea0179000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffebc870000 - 0x00007ffebc8e1000 	C:\Windows\System32\WS2_32.dll
+0x00007ffeb21d0000 - 0x00007ffeb2204000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffea2630000 - 0x00007ffea263a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ffeb8ad0000 - 0x00007ffeb8b1d000 	C:\Windows\SYSTEM32\POWRPROF.dll
+0x00007ffeb8ab0000 - 0x00007ffeb8ac3000 	C:\Windows\SYSTEM32\UMPDC.dll
+0x00007ffeb8d70000 - 0x00007ffeb8d88000 	C:\Windows\SYSTEM32\kernel.appcore.dll
+0x00007ffe9da50000 - 0x00007ffe9da5a000 	D:\Deveco\DevEco Studio\jbr\bin\jimage.dll
+0x00007ffeb6ed0000 - 0x00007ffeb7102000 	C:\Windows\SYSTEM32\DBGHELP.DLL
+0x00007ffebb120000 - 0x00007ffebb4b2000 	C:\Windows\System32\combase.dll
+0x00007ffebc3b0000 - 0x00007ffebc487000 	C:\Windows\System32\OLEAUT32.dll
+0x00007ffe9c0c0000 - 0x00007ffe9c0f2000 	C:\Windows\SYSTEM32\dbgcore.DLL
+0x00007ffeba090000 - 0x00007ffeba10b000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007ffe93870000 - 0x00007ffe93895000 	D:\Deveco\DevEco Studio\jbr\bin\java.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;D:\Deveco\DevEco Studio\jbr\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.5124_none_270e8f4f7386d69d;D:\Deveco\DevEco Studio\jbr\bin\server
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK 
+java_command: D:\Deveco\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar --mode hap --force true --lib-path D:\Deveco\MyApplication\entry\build\default\intermediates\stripped_native_libs\default --json-path D:\Deveco\MyApplication\entry\build\default\intermediates\package\default\module.json --resources-path D:\Deveco\MyApplication\entry\build\default\intermediates\res\default\resources --index-path D:\Deveco\MyApplication\entry\build\default\intermediates\res\default\resources.index --pack-info-path D:\Deveco\MyApplication\entry\build\default\outputs\default\pack.info --out-path D:\Deveco\MyApplication\entry\build\default\outputs\default\entry-default-unsigned.hap --ets-path D:\Deveco\MyApplication\entry\build\default\intermediates\loader_out\default\ets --pkg-context-path D:\Deveco\MyApplication\entry\build\default\intermediates\loader\default\pkgContextInfo.json
+java_class_path (initial): D:\Deveco\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 12                                        {product} {ergonomic}
+     uint ConcGCThreads                            = 3                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 13                                        {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 2097152                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 264241152                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 4213178368                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 2097152                                   {product} {ergonomic}
+   size_t MinHeapSize                              = 8388608                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 7602480                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122027880                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122027880                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+   size_t SoftMaxHeapSize                          = 4213178368                             {manageable} {ergonomic}
+     bool UseCompressedClassPointers               = true                           {product lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                           {product lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_HOME=D:\Deveco\DevEco Studio\jbr
+PATH=D:\Deveco\DevEco Studio\tools\node;D:\Deveco\DevEco Studio\jbr\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\MATLAB\bin;\bin;\bin\win64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\MATLAB;D:\runtime\win64;D:;C:\Program Files\dotnet\;D:\anaconda;D:\anaconda\Scripts;D:\anaconda\Library;C:\Users\¡ı‘¥\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\¡ı‘¥\AppData\Local\Programs\Python\Python37\;C:\Users\¡ı‘¥\AppData\Local\Microsoft\WindowsApps;D:\vscode\Microsoft VS Code;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\anaconda;D:\anaconda\Scripts;D:\anaconda\Library\bin;C:\Users\unicorn\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\unicorn\AppData\Local\Programs\Python\Python37\;C:\Users\unicorn\AppData\Local\Microsoft\WindowsApps;D:\vscode\Microsoft VS Code\bin;
+USERNAME=unicorn
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel
+TMP=C:\Users\unicorn\AppData\Local\Temp
+TEMP=C:\Users\unicorn\AppData\Local\Temp
+
+
+
+Periodic native trim disabled
+
+JNI global refs:
+JNI global refs: 0, weak refs: 0
+
+JNI global refs memory usage: 0, weak refs: 0
+
+OOME stack traces (most recent first):
+Classloader memory used:
+
+
+---------------  S Y S T E M  ---------------
+
+OS:
+ Windows 11 , 64 bit Build 22621 (10.0.22621.5124)
+OS uptime: 10 days 8:13 hours
+Hyper-V role detected
+
+CPU: total 16 (initial active 16) (8 cores per cpu, 2 threads per core) family 6 model 186 stepping 2 microcode 0x410e, cx8, cmov, fxsr, ht, mmx, 3dnowpref, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, lzcnt, tsc, tscinvbit, avx, avx2, aes, erms, clmul, bmi1, bmi2, adx, sha, fma, vzeroupper, clflush, clflushopt, clwb, hv
+Processor Information for processor 0
+  Max Mhz: 2600, Current Mhz: 2600, Mhz Limit: 2600
+Processor Information for processor 1
+  Max Mhz: 2600, Current Mhz: 2600, Mhz Limit: 2600
+Processor Information for processor 2
+  Max Mhz: 2600, Current Mhz: 1496, Mhz Limit: 2600
+Processor Information for processor 3
+  Max Mhz: 2600, Current Mhz: 2600, Mhz Limit: 2600
+Processor Information for processor 4
+  Max Mhz: 2600, Current Mhz: 2600, Mhz Limit: 2600
+Processor Information for processor 5
+  Max Mhz: 2600, Current Mhz: 2600, Mhz Limit: 2600
+Processor Information for processor 6
+  Max Mhz: 2600, Current Mhz: 2600, Mhz Limit: 2600
+Processor Information for processor 7
+  Max Mhz: 2600, Current Mhz: 2600, Mhz Limit: 2600
+Processor Information for processor 8
+  Max Mhz: 2600, Current Mhz: 1900, Mhz Limit: 1898
+Processor Information for processor 9
+  Max Mhz: 2600, Current Mhz: 1900, Mhz Limit: 1898
+Processor Information for processor 10
+  Max Mhz: 2600, Current Mhz: 1900, Mhz Limit: 1898
+Processor Information for processor 11
+  Max Mhz: 2600, Current Mhz: 1900, Mhz Limit: 1898
+Processor Information for processor 12
+  Max Mhz: 2600, Current Mhz: 1900, Mhz Limit: 1898
+Processor Information for processor 13
+  Max Mhz: 2600, Current Mhz: 1900, Mhz Limit: 1898
+Processor Information for processor 14
+  Max Mhz: 2600, Current Mhz: 1900, Mhz Limit: 1898
+Processor Information for processor 15
+  Max Mhz: 2600, Current Mhz: 1900, Mhz Limit: 1898
+
+Memory: 4k page, system-wide physical 16071M (521M free)
+TotalPageFile size 46514M (AvailPageFile size 5M)
+current process WorkingSet (physical memory assigned to process): 11M, peak: 11M
+current process commit charge ("private bytes"): 70M, peak: 322M
+
+vm_info: OpenJDK 64-Bit Server VM (17.0.12+1-b1087.25) for windows-amd64 JRE (17.0.12+1-b1087.25), built on 2024-08-30 by "builduser" with MS VC++ 16.10 / 16.11 (VS2019)
+
+END.

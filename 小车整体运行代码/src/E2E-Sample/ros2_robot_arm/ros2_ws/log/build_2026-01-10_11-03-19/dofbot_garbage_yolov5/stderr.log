@@ -1,0 +1,6 @@
+package init file 'dofbot_garbage_yolov5/utils/__init__.py' not found (or not a regular file)
+  File "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/main_only_find.py", line 302
+    print(f"90度检测结�? 成功{successful_detections}�? 总共{total_detections}�?)
+          ^
+SyntaxError: unterminated string literal (detected at line 302)
+

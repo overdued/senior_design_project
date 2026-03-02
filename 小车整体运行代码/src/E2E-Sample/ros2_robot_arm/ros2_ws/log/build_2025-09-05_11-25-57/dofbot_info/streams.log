@@ -1,0 +1,31 @@
+[0.046s] Invoking command in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5:/opt/ros/humble /usr/bin/cmake --build /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info -- -j3 -l3
+[0.451s] [  3%] Built target dofbot_info__cpp
+[0.452s] [  3%] Built target ament_cmake_python_copy_dofbot_info
+[0.452s] [ 12%] Built target dofbot_info__rosidl_typesupport_cpp
+[0.452s] [ 22%] Built target dofbot_info__rosidl_typesupport_fastrtps_cpp
+[0.452s] [ 32%] Built target dofbot_info__rosidl_typesupport_introspection_cpp
+[0.453s] Traceback (most recent call last):
+[0.454s]   File "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info/ament_cmake_python/dofbot_info/setup.py", line 1, in <module>
+[0.454s]     from setuptools import find_packages
+[0.454s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+[0.454s]     import distutils.core
+[0.454s]   File "/usr/lib/python3.10/distutils/core.py", line 17, in <module>
+[0.454s]     from distutils.cmd import Command
+[0.455s]   File "/usr/lib/python3.10/distutils/cmd.py", line 9, in <module>
+[0.455s]     from distutils import util, dir_util, file_util, archive_util, dep_util
+[0.455s]   File "/usr/lib/python3.10/distutils/archive_util.py", line 11, in <module>
+[0.455s]     import zipfile
+[0.455s]   File "/usr/lib/python3.10/zipfile.py", line 20, in <module>
+[0.455s]     import pathlib
+[0.455s]   File "/usr/lib/python3.10/pathlib.py", line 14, in <module>
+[0.456s]     from urllib.parse import quote_from_bytes as urlquote_from_bytes
+[0.456s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[0.456s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[0.456s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[0.456s]   File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+[0.457s]   File "<frozen importlib._bootstrap_external>", line 1012, in get_code
+[0.457s]   File "<frozen importlib._bootstrap_external>", line 674, in _compile_bytecode
+[0.457s] KeyboardInterrupt
+[0.467s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dofbot_info_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dofbot_info_egg] Interrupt
+[0.468s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_dofbot_info_egg.dir/all] Interrupt
+[0.468s] gmake: *** [Makefile:146: all] Interrupt

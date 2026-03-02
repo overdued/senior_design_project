@@ -1,0 +1,5 @@
+[  3%] Built target dofbot_info__cpp
+[  3%] Built target ament_cmake_python_copy_dofbot_info
+[ 12%] Built target dofbot_info__rosidl_typesupport_cpp
+[ 22%] Built target dofbot_info__rosidl_typesupport_fastrtps_cpp
+[ 32%] Built target dofbot_info__rosidl_typesupport_introspection_cpp

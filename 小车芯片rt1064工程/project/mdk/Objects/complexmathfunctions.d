@@ -1,0 +1,33 @@
+./objects/complexmathfunctions.o: \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_conj_f32.c \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\complex_math_functions.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_math_types.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_compiler.h \
+  F:\keil5\ARM\ARMCLANG\include\stdint.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_armclang.h \
+  F:\keil5\ARM\ARMCLANG\include\string.h \
+  F:\keil5\ARM\ARMCLANG\include\math.h \
+  F:\keil5\ARM\ARMCLANG\include\float.h \
+  F:\keil5\ARM\ARMCLANG\include\limits.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_math_memory.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\none.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\utils.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\fast_math_functions.h \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_conj_q15.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_conj_q31.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_dot_prod_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_dot_prod_q15.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_dot_prod_q31.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_q15.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_q31.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_squared_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_squared_q15.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_squared_q31.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_q15.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_q31.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_real_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_real_q15.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_real_q31.c

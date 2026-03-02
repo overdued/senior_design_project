@@ -1,0 +1,11 @@
+所有的代码工程在project文件夹下：
+
+其中又包含了libraries和project两个文件夹：
+在libraries中：
+主要包含了小车中需要使用的时钟封装的包在CMSIS中和uart功能，显示功能，无线通信，陀螺仪功能的封装包在zf_device文件夹中。
+在zf_drive文件夹中存放小车iic功能包和io功能和时延等功能的封装包。
+
+
+主程序代码在project中：
+其中需要调用libraries中的函数的头函数被存放于user下的inc文件夹中。
+在user下的src中包括整个工程实现的主函数main.c，在使用前将其烧录到小车中便可运行，其中src中还包含重要的isr.c中断函数代码，这个保证了通信和陀螺仪等关键动作的成功进行。

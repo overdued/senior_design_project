@@ -1,0 +1,6 @@
+模型名称,平均推理时间(ms),box,cup,cell phone,remote
+yolov8x_pretrain,43.66,0,68,33,21
+yolo26x,47.03,0,66,31,18
+your_best_model,28.25,52,57,22,28
+yolo26n,32.45,0,42,13,4
+yolov8_image7,40.35,31,9,6,0

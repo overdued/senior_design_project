@@ -1,0 +1,8 @@
+names:
+- box
+- cup
+- cell phone
+- remote
+nc: 4
+train: /home/zhaoyuhang/my_dataset_add_cup_cell/train_split/images/train
+val: /home/zhaoyuhang/my_dataset_add_cup_cell/train_split/images/val

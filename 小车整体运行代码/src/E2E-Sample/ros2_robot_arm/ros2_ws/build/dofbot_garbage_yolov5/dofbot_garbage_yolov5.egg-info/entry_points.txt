@@ -1,0 +1,4 @@
+[console_scripts]
+block_cls = dofbot_garbage_yolov5.main:main
+main_only_find = dofbot_garbage_yolov5.main_only_find:main
+

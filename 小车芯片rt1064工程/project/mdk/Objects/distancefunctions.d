@@ -1,0 +1,37 @@
+./objects/distancefunctions.o: \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\DistanceFunctions.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_boolean_distance.c \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\distance_functions.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_math_types.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_compiler.h \
+  F:\keil5\ARM\ARMCLANG\include\stdint.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_armclang.h \
+  F:\keil5\ARM\ARMCLANG\include\string.h \
+  F:\keil5\ARM\ARMCLANG\include\math.h \
+  F:\keil5\ARM\ARMCLANG\include\float.h \
+  F:\keil5\ARM\ARMCLANG\include\limits.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_math_memory.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\none.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\utils.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\statistics_functions.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\basic_math_functions.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\fast_math_functions.h \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_boolean_distance_template.h \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_braycurtis_distance_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_canberra_distance_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_chebyshev_distance_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_cityblock_distance_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_correlation_distance_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_cosine_distance_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_dice_distance.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_euclidean_distance_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_hamming_distance.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_jaccard_distance.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_jensenshannon_distance_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_kulsinski_distance.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_minkowski_distance_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_rogerstanimoto_distance.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_russellrao_distance.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_sokalmichener_distance.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_sokalsneath_distance.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\DistanceFunctions\arm_yule_distance.c

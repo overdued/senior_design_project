@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info/ament_cmake_python/dofbot_info/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+    import distutils.core
+  File "/usr/lib/python3.10/distutils/core.py", line 17, in <module>
+    from distutils.cmd import Command
+  File "/usr/lib/python3.10/distutils/cmd.py", line 9, in <module>
+    from distutils import util, dir_util, file_util, archive_util, dep_util
+  File "/usr/lib/python3.10/distutils/archive_util.py", line 11, in <module>
+    import zipfile
+  File "/usr/lib/python3.10/zipfile.py", line 20, in <module>
+    import pathlib
+  File "/usr/lib/python3.10/pathlib.py", line 14, in <module>
+    from urllib.parse import quote_from_bytes as urlquote_from_bytes
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1012, in get_code
+  File "<frozen importlib._bootstrap_external>", line 674, in _compile_bytecode
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dofbot_info_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dofbot_info_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_dofbot_info_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

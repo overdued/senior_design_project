@@ -1,0 +1,159 @@
+[0.771s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'dofbot_garbage_yolov5'][0m
+[0.772s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['dofbot_garbage_yolov5'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xe7fffd1021d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xe7fffd287a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xe7fffd287a60>>, mixin_verb=('build',))[0m
+[1.458s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[1.458s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[1.458s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[1.458s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[1.458s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[1.459s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[1.459s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws'
+[1.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[1.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[1.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[1.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[1.460s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[1.460s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[1.460s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[1.460s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[1.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[1.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[1.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[1.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[1.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[1.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[1.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[1.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[1.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[1.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[1.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[1.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[1.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[1.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[1.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[1.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[1.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[1.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[1.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[1.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[1.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[1.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[1.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[1.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[1.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_garbage_yolov5) by extensions ['ignore', 'ignore_ament_install']
+[1.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_garbage_yolov5) by extension 'ignore'
+[1.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_garbage_yolov5) by extension 'ignore_ament_install'
+[1.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_garbage_yolov5) by extensions ['colcon_pkg']
+[1.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_garbage_yolov5) by extension 'colcon_pkg'
+[1.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_garbage_yolov5) by extensions ['colcon_meta']
+[1.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_garbage_yolov5) by extension 'colcon_meta'
+[1.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_garbage_yolov5) by extensions ['ros']
+[1.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_garbage_yolov5) by extension 'ros'
+[1.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/dofbot_garbage_yolov5' with type 'ros.ament_python' and name 'dofbot_garbage_yolov5'[0m
+[1.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_info) by extensions ['ignore', 'ignore_ament_install']
+[1.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_info) by extension 'ignore'
+[1.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_info) by extension 'ignore_ament_install'
+[1.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_info) by extensions ['colcon_pkg']
+[1.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_info) by extension 'colcon_pkg'
+[1.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_info) by extensions ['colcon_meta']
+[1.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_info) by extension 'colcon_meta'
+[1.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_info) by extensions ['ros']
+[1.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_info) by extension 'ros'
+[1.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/dofbot_info' with type 'ros.ament_cmake' and name 'dofbot_info'[0m
+[1.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_moveit) by extension 'ignore'
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_moveit) by extension 'ignore_ament_install'
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_moveit) by extensions ['colcon_pkg']
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_moveit) by extension 'colcon_pkg'
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_moveit) by extensions ['colcon_meta']
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_moveit) by extension 'colcon_meta'
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_moveit) by extensions ['ros']
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dofbot_moveit) by extension 'ros'
+[1.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/dofbot_moveit' with type 'ros.ament_cmake' and name 'dofbot_moveit'[0m
+[1.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_bringup) by extension 'ignore'
+[1.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_bringup) by extension 'ignore_ament_install'
+[1.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_bringup) by extensions ['colcon_pkg']
+[1.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_bringup) by extension 'colcon_pkg'
+[1.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_bringup) by extensions ['colcon_meta']
+[1.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_bringup) by extension 'colcon_meta'
+[1.550s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_bringup) by extensions ['ros']
+[1.550s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_bringup) by extension 'ros'
+[1.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/robot_arm_bringup' with type 'ros.ament_python' and name 'robot_arm_bringup'[0m
+[1.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_color_stacking) by extensions ['ignore', 'ignore_ament_install']
+[1.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_color_stacking) by extension 'ignore'
+[1.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_color_stacking) by extension 'ignore_ament_install'
+[1.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_color_stacking) by extensions ['colcon_pkg']
+[1.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_color_stacking) by extension 'colcon_pkg'
+[1.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_color_stacking) by extensions ['colcon_meta']
+[1.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_color_stacking) by extension 'colcon_meta'
+[1.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_color_stacking) by extensions ['ros']
+[1.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_arm_color_stacking) by extension 'ros'
+[1.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/robot_arm_color_stacking' with type 'ros.ament_python' and name 'robot_arm_color_stacking'[0m
+[1.555s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[1.555s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[1.555s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[1.555s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[1.555s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[1.611s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'dofbot_info' in 'src/dofbot_info'
+[1.611s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'robot_arm_bringup' in 'src/robot_arm_bringup'
+[1.611s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'robot_arm_color_stacking' in 'src/robot_arm_color_stacking'
+[1.611s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'dofbot_moveit' in 'src/dofbot_moveit'
+[1.612s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[1.613s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[1.620s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 284 installed packages in /opt/ros/humble[0m
+[1.623s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[1.714s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofbot_garbage_yolov5' build argument 'cmake_args' from command line to 'None'
+[1.714s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofbot_garbage_yolov5' build argument 'cmake_target' from command line to 'None'
+[1.714s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofbot_garbage_yolov5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.714s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofbot_garbage_yolov5' build argument 'cmake_clean_cache' from command line to 'False'
+[1.714s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofbot_garbage_yolov5' build argument 'cmake_clean_first' from command line to 'False'
+[1.714s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofbot_garbage_yolov5' build argument 'cmake_force_configure' from command line to 'False'
+[1.714s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofbot_garbage_yolov5' build argument 'ament_cmake_args' from command line to 'None'
+[1.714s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofbot_garbage_yolov5' build argument 'catkin_cmake_args' from command line to 'None'
+[1.714s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dofbot_garbage_yolov5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.715s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'dofbot_garbage_yolov5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5', 'merge_install': False, 'path': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/dofbot_garbage_yolov5', 'symlink_install': False, 'test_result_base': None}[0m
+[1.715s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.717s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.718s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/dofbot_garbage_yolov5' with build type 'ament_python'
+[1.718s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dofbot_garbage_yolov5', 'ament_prefix_path')
+[1.728s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.729s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/hook/ament_prefix_path.ps1'
+[1.731s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/hook/ament_prefix_path.dsv'
+[1.732s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/hook/ament_prefix_path.sh'
+[1.734s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.734s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.452s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/dofbot_garbage_yolov5'
+[2.453s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.453s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.612s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/dofbot_garbage_yolov5': AMENT_PREFIX_PATH=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info LD_LIBRARY_PATH=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu/:/usr/local/lib:/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu/:/usr/local/lib PYTHONPATH=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dofbot_garbage_yolov5 build --build-base /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build install --record /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/install.log --single-version-externally-managed install_data[0m
+[4.452s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/dofbot_garbage_yolov5' returned '0': AMENT_PREFIX_PATH=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info LD_LIBRARY_PATH=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu/:/usr/local/lib:/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu/:/usr/local/lib PYTHONPATH=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dofbot_garbage_yolov5 build --build-base /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build install --record /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/install.log --single-version-externally-managed install_data[0m
+[4.462s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5' for CMake module files
+[4.463s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5' for CMake config files
+[4.465s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib'
+[4.465s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/bin'
+[4.465s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/pkgconfig/dofbot_garbage_yolov5.pc'
+[4.466s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages'
+[4.466s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dofbot_garbage_yolov5', 'pythonpath')
+[4.467s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/hook/pythonpath.ps1'
+[4.468s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/hook/pythonpath.dsv'
+[4.468s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/hook/pythonpath.sh'
+[4.470s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/bin'
+[4.470s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(dofbot_garbage_yolov5)
+[4.471s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/package.ps1'
+[4.473s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/package.dsv'
+[4.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/package.sh'
+[4.476s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/package.bash'
+[4.479s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/package.zsh'
+[4.481s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/colcon-core/packages/dofbot_garbage_yolov5)
+[4.482s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[4.483s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[4.483s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[4.483s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[4.496s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.497s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.497s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'

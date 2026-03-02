@@ -1,0 +1,24 @@
+./objects/controllerfunctions.o: \
+  ..\..\libraries\components\CMSIS\DSP\Source\ControllerFunctions\ControllerFunctions.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ControllerFunctions\arm_pid_init_f32.c \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\controller_functions.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_math_types.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_compiler.h \
+  F:\keil5\ARM\ARMCLANG\include\stdint.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_armclang.h \
+  F:\keil5\ARM\ARMCLANG\include\string.h \
+  F:\keil5\ARM\ARMCLANG\include\math.h \
+  F:\keil5\ARM\ARMCLANG\include\float.h \
+  F:\keil5\ARM\ARMCLANG\include\limits.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_math_memory.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\none.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\utils.h \
+  ..\..\libraries\components\CMSIS\DSP\Source\ControllerFunctions\arm_pid_init_q15.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ControllerFunctions\arm_pid_init_q31.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ControllerFunctions\arm_pid_reset_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ControllerFunctions\arm_pid_reset_q15.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ControllerFunctions\arm_pid_reset_q31.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\ControllerFunctions\arm_sin_cos_f32.c \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_common_tables.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\fast_math_functions.h \
+  ..\..\libraries\components\CMSIS\DSP\Source\ControllerFunctions\arm_sin_cos_q31.c

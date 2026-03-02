@@ -1,0 +1,22 @@
+./objects/commontables.o: \
+  ..\..\libraries\components\CMSIS\DSP\Source\CommonTables\CommonTables.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\CommonTables\arm_common_tables.c \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_math_types.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_compiler.h \
+  F:\keil5\ARM\ARMCLANG\include\stdint.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_armclang.h \
+  F:\keil5\ARM\ARMCLANG\include\string.h \
+  F:\keil5\ARM\ARMCLANG\include\math.h \
+  F:\keil5\ARM\ARMCLANG\include\float.h \
+  F:\keil5\ARM\ARMCLANG\include\limits.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_common_tables.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\fast_math_functions.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_math_memory.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\none.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\utils.h \
+  ..\..\libraries\components\CMSIS\DSP\Source\CommonTables\arm_const_structs.c \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_const_structs.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\transform_functions.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\basic_math_functions.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\complex_math_functions.h \
+  ..\..\libraries\components\CMSIS\DSP\Source\CommonTables\arm_mve_tables.c

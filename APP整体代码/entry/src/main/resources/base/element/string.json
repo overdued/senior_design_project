@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "智能小车控制"
+    },
+    {
+      "name": "reason_microphone",
+      "value": "用于语音识别功能"
+    },
+    {
+      "name": "reason_internet",
+      "value": "用于连接小车网络"
+    },
+    {
+      "name": "reason_wifi",
+      "value": "用于获取Wi-Fi信息"
+    }
+  ]
+}

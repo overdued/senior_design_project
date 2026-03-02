@@ -1,0 +1,22 @@
+[4.766s] Invoking command in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/robot_arm_color_stacking': PYTHONPATH=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_arm_color_stacking build --build-base /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build install --record /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/install.log --single-version-externally-managed install_data
+[5.876s] running egg_info
+[5.888s] writing ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/PKG-INFO
+[5.893s] writing dependency_links to ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/dependency_links.txt
+[5.895s] writing entry points to ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/entry_points.txt
+[5.897s] writing requirements to ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/requires.txt
+[5.900s] writing top-level names to ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/top_level.txt
+[5.901s] package init file 'robot_arm_color_stacking/utils/__init__.py' not found (or not a regular file)
+[5.904s] reading manifest file '../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/SOURCES.txt'
+[5.909s] writing manifest file '../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/SOURCES.txt'
+[5.911s] running build
+[5.923s] running build_py
+[5.923s] running install
+[5.923s] running install_lib
+[5.929s] running install_data
+[5.929s] running install_egg_info
+[5.947s] removing '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking-0.0.0-py3.10.egg-info' (and everything under it)
+[5.947s] Copying ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info to /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking-0.0.0-py3.10.egg-info
+[5.948s] running install_scripts
+[6.039s] Installing color_stacking script to /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/robot_arm_color_stacking
+[6.046s] writing list of installed files to '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/install.log'
+[6.225s] Invoked command in '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/robot_arm_color_stacking' returned '0': PYTHONPATH=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_arm_color_stacking build --build-base /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build install --record /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/install.log --single-version-externally-managed install_data

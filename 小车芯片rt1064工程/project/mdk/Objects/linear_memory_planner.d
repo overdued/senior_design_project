@@ -1,0 +1,20 @@
+./objects/linear_memory_planner.o: \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\micro\memory_planner\linear_memory_planner.cpp \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\micro\memory_planner\linear_memory_planner.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\micro\compatibility.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\micro\memory_planner\micro_memory_planner.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\c\common.h \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\stdbool.h \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\__config \
+  F:\keil5\ARM\ARMCLANG\include\stdbool.h \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\stddef.h \
+  F:\keil5\ARM\ARMCLANG\include\stddef.h \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\stdint.h \
+  F:\keil5\ARM\ARMCLANG\include\stdint.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\c\c_api_types.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\tensorflow\lite\core\api\error_reporter.h \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\cstdarg \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\__assert \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\__verbose_abort \
+  F:\keil5\ARM\ARMCLANG\include\libcxx\__availability \
+  F:\keil5\ARM\ARMCLANG\include\stdarg.h

@@ -1,0 +1,2 @@
+export OPENNI2_INCLUDE=/root/Yolotest/OpenNI-Linux-Arm64-2.3/Include
+export OPENNI2_REDIST=/root/Yolotest/OpenNI-Linux-Arm64-2.3/Redist

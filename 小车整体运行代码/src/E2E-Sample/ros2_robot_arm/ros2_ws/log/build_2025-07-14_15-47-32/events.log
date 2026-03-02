@@ -1,0 +1,868 @@
+[0.000000] (-) TimerEvent: {}
+[0.000346] (dofbot_info) JobQueued: {'identifier': 'dofbot_info', 'dependencies': OrderedDict()}
+[0.000641] (robot_arm_bringup) JobQueued: {'identifier': 'robot_arm_bringup', 'dependencies': OrderedDict()}
+[0.001241] (robot_arm_color_stacking) JobQueued: {'identifier': 'robot_arm_color_stacking', 'dependencies': OrderedDict()}
+[0.001528] (dofbot_garbage_yolov5) JobQueued: {'identifier': 'dofbot_garbage_yolov5', 'dependencies': OrderedDict([('dofbot_info', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info')])}
+[0.001843] (dofbot_moveit) JobQueued: {'identifier': 'dofbot_moveit', 'dependencies': OrderedDict([('dofbot_info', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info')])}
+[0.001956] (dofbot_info) JobStarted: {'identifier': 'dofbot_info'}
+[0.029674] (robot_arm_bringup) JobStarted: {'identifier': 'robot_arm_bringup'}
+[0.061641] (robot_arm_color_stacking) JobStarted: {'identifier': 'robot_arm_color_stacking'}
+[0.075485] (dofbot_info) JobProgress: {'identifier': 'dofbot_info', 'progress': 'cmake'}
+[0.076453] (dofbot_info) Command: {'cmd': ['/usr/bin/cmake', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/dofbot_info', '-DCMAKE_INSTALL_PREFIX=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info'], 'cwd': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 59308 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver::/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu:/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ASCEND_TOOLKIT_HOME', '/usr/local/Ascend/ascend-toolkit/latest'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('ASCEND_OPP_PATH', '/usr/local/Ascend/ascend-toolkit/latest/opp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '10'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/usr/local/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TOOLCHAIN_HOME', '/usr/local/Ascend/ascend-toolkit/latest/toolkit'), ('ASCEND_AICPU_PATH', '/usr/local/Ascend/ascend-toolkit/latest'), ('PWD', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/usr/local/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.137.1 59308 192.168.137.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:'), ('ASCEND_HOME_PATH', '/usr/local/Ascend/ascend-toolkit/latest'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099490] (-) TimerEvent: {}
+[0.199984] (-) TimerEvent: {}
+[0.300709] (-) TimerEvent: {}
+[0.401329] (-) TimerEvent: {}
+[0.501821] (-) TimerEvent: {}
+[0.602299] (-) TimerEvent: {}
+[0.702770] (-) TimerEvent: {}
+[0.785237] (dofbot_info) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.786074] (dofbot_info) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.786601] (dofbot_info) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.787198] (dofbot_info) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.787510] (dofbot_info) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.787968] (dofbot_info) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.788731] (dofbot_info) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.789226] (dofbot_info) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.789401] (dofbot_info) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.789561] (dofbot_info) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.789718] (dofbot_info) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.789872] (dofbot_info) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.790021] (dofbot_info) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.802878] (-) TimerEvent: {}
+[0.903339] (-) TimerEvent: {}
+[1.003819] (-) TimerEvent: {}
+[1.104281] (-) TimerEvent: {}
+[1.145639] (dofbot_info) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.204414] (-) TimerEvent: {}
+[1.304914] (-) TimerEvent: {}
+[1.375258] (dofbot_info) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.383599] (dofbot_info) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.399409] (dofbot_info) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.405062] (-) TimerEvent: {}
+[1.505571] (-) TimerEvent: {}
+[1.507126] (dofbot_info) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.605699] (-) TimerEvent: {}
+[1.706178] (-) TimerEvent: {}
+[1.806658] (-) TimerEvent: {}
+[1.907140] (-) TimerEvent: {}
+[2.007643] (-) TimerEvent: {}
+[2.108990] (-) TimerEvent: {}
+[2.209468] (-) TimerEvent: {}
+[2.223440] (dofbot_info) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.309598] (-) TimerEvent: {}
+[2.410071] (-) TimerEvent: {}
+[2.452933] (robot_arm_color_stacking) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_arm_color_stacking', 'build', '--build-base', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build', 'install', '--record', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/robot_arm_color_stacking', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'SSH_CLIENT': '192.168.137.1 59308 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver::/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu:/usr/local/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'CONDA_SHLVL': '0', 'OLDPWD': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ASCEND_TOOLKIT_HOME': '/usr/local/Ascend/ascend-toolkit/latest', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', '_CE_M': '', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'ASCEND_OPP_PATH': '/usr/local/Ascend/ascend-toolkit/latest/opp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '10', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/usr/local/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TOOLCHAIN_HOME': '/usr/local/Ascend/ascend-toolkit/latest/toolkit', 'ASCEND_AICPU_PATH': '/usr/local/Ascend/ascend-toolkit/latest', 'PWD': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/usr/local/miniconda3/bin/conda', 'SSH_CONNECTION': '192.168.137.1 59308 192.168.137.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:', 'ASCEND_HOME_PATH': '/usr/local/Ascend/ascend-toolkit/latest', 'COLCON': '1'}, 'shell': False}
+[2.510207] (-) TimerEvent: {}
+[2.610704] (-) TimerEvent: {}
+[2.631606] (robot_arm_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_arm_bringup', 'build', '--build-base', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/build', 'install', '--record', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/robot_arm_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'SSH_CLIENT': '192.168.137.1 59308 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver::/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu:/usr/local/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'CONDA_SHLVL': '0', 'OLDPWD': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ASCEND_TOOLKIT_HOME': '/usr/local/Ascend/ascend-toolkit/latest', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', '_CE_M': '', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'ASCEND_OPP_PATH': '/usr/local/Ascend/ascend-toolkit/latest/opp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '10', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/usr/local/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TOOLCHAIN_HOME': '/usr/local/Ascend/ascend-toolkit/latest/toolkit', 'ASCEND_AICPU_PATH': '/usr/local/Ascend/ascend-toolkit/latest', 'PWD': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/usr/local/miniconda3/bin/conda', 'SSH_CONNECTION': '192.168.137.1 59308 192.168.137.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/lib/python3.10/site-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:', 'ASCEND_HOME_PATH': '/usr/local/Ascend/ascend-toolkit/latest', 'COLCON': '1'}, 'shell': False}
+[2.710830] (-) TimerEvent: {}
+[2.760126] (dofbot_info) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.810963] (-) TimerEvent: {}
+[2.911688] (-) TimerEvent: {}
+[3.012156] (-) TimerEvent: {}
+[3.112645] (-) TimerEvent: {}
+[3.186961] (robot_arm_color_stacking) StdoutLine: {'line': b'running egg_info\n'}
+[3.188595] (robot_arm_color_stacking) StdoutLine: {'line': b'creating ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info\n'}
+[3.189195] (robot_arm_color_stacking) StdoutLine: {'line': b'writing ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/PKG-INFO\n'}
+[3.189707] (robot_arm_color_stacking) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/dependency_links.txt\n'}
+[3.189977] (robot_arm_color_stacking) StdoutLine: {'line': b'writing entry points to ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/entry_points.txt\n'}
+[3.190220] (robot_arm_color_stacking) StdoutLine: {'line': b'writing requirements to ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/requires.txt\n'}
+[3.190455] (robot_arm_color_stacking) StdoutLine: {'line': b'writing top-level names to ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/top_level.txt\n'}
+[3.190793] (robot_arm_color_stacking) StdoutLine: {'line': b"writing manifest file '../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/SOURCES.txt'\n"}
+[3.196641] (robot_arm_color_stacking) StderrLine: {'line': b"package init file 'robot_arm_color_stacking/utils/__init__.py' not found (or not a regular file)\n"}
+[3.198299] (robot_arm_color_stacking) StdoutLine: {'line': b"reading manifest file '../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/SOURCES.txt'\n"}
+[3.200843] (robot_arm_color_stacking) StdoutLine: {'line': b"writing manifest file '../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info/SOURCES.txt'\n"}
+[3.201255] (robot_arm_color_stacking) StdoutLine: {'line': b'running build\n'}
+[3.201460] (robot_arm_color_stacking) StdoutLine: {'line': b'running build_py\n'}
+[3.201691] (robot_arm_color_stacking) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build\n'}
+[3.201939] (robot_arm_color_stacking) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib\n'}
+[3.202117] (robot_arm_color_stacking) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking\n'}
+[3.202335] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/main.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking\n'}
+[3.202562] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/__init__.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking\n'}
+[3.202998] (robot_arm_color_stacking) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/utils\n'}
+[3.203268] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/utils/stacking_target.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/utils\n'}
+[3.204035] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/utils/npu_utils.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/utils\n'}
+[3.204538] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/utils/det_utils.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/utils\n'}
+[3.205307] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/utils/dofbot_config.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/utils\n'}
+[3.206031] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/utils/stacking_grap.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/utils\n'}
+[3.207026] (robot_arm_color_stacking) StdoutLine: {'line': b'running install\n'}
+[3.207853] (robot_arm_color_stacking) StdoutLine: {'line': b'running install_lib\n'}
+[3.209822] (robot_arm_color_stacking) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking\n'}
+[3.210266] (robot_arm_color_stacking) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/utils\n'}
+[3.210475] (robot_arm_color_stacking) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/utils/stacking_target.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/utils\n'}
+[3.210725] (robot_arm_color_stacking) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/utils/npu_utils.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/utils\n'}
+[3.210910] (robot_arm_color_stacking) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/utils/det_utils.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/utils\n'}
+[3.211172] (robot_arm_color_stacking) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/utils/dofbot_config.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/utils\n'}
+[3.211378] (robot_arm_color_stacking) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/utils/stacking_grap.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/utils\n'}
+[3.211615] (robot_arm_color_stacking) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/main.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking\n'}
+[3.211793] (robot_arm_color_stacking) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/build/lib/robot_arm_color_stacking/__init__.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking\n'}
+[3.212653] (robot_arm_color_stacking) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/utils/stacking_target.py to stacking_target.cpython-310.pyc\n'}
+[3.212948] (-) TimerEvent: {}
+[3.216688] (robot_arm_color_stacking) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/utils/npu_utils.py to npu_utils.cpython-310.pyc\n'}
+[3.218809] (robot_arm_color_stacking) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/utils/det_utils.py to det_utils.cpython-310.pyc\n'}
+[3.224563] (robot_arm_color_stacking) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/utils/dofbot_config.py to dofbot_config.cpython-310.pyc\n'}
+[3.227072] (robot_arm_color_stacking) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/utils/stacking_grap.py to stacking_grap.cpython-310.pyc\n'}
+[3.227382] (robot_arm_color_stacking) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/main.py to main.cpython-310.pyc\n'}
+[3.228242] (robot_arm_color_stacking) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking/__init__.py to __init__.cpython-310.pyc\n'}
+[3.228546] (robot_arm_color_stacking) StdoutLine: {'line': b'running install_data\n'}
+[3.228819] (robot_arm_color_stacking) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/ament_index\n'}
+[3.229083] (robot_arm_color_stacking) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/ament_index/resource_index\n'}
+[3.229326] (robot_arm_color_stacking) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/ament_index/resource_index/packages\n'}
+[3.229506] (robot_arm_color_stacking) StdoutLine: {'line': b'copying resource/robot_arm_color_stacking -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/ament_index/resource_index/packages\n'}
+[3.229738] (robot_arm_color_stacking) StdoutLine: {'line': b'copying package.xml -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/robot_arm_color_stacking\n'}
+[3.229918] (robot_arm_color_stacking) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/robot_arm_color_stacking/config\n'}
+[3.230153] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/config/data_collect_idx.txt -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/robot_arm_color_stacking/config\n'}
+[3.230757] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/config/XYT_config.txt -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/robot_arm_color_stacking/config\n'}
+[3.231156] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/config/offset.txt -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/robot_arm_color_stacking/config\n'}
+[3.231558] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/config/color_stacking.txt -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/robot_arm_color_stacking/config\n'}
+[3.231947] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/config/dp.bin -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/robot_arm_color_stacking/config\n'}
+[3.232368] (robot_arm_color_stacking) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/robot_arm_color_stacking/model\n'}
+[3.232623] (robot_arm_color_stacking) StdoutLine: {'line': b'copying robot_arm_color_stacking/model/coco_names.txt -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/share/robot_arm_color_stacking/model\n'}
+[3.233248] (robot_arm_color_stacking) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.238046] (robot_arm_color_stacking) StdoutLine: {'line': b'Copying ../../build/robot_arm_color_stacking/robot_arm_color_stacking.egg-info to /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/python3.10/site-packages/robot_arm_color_stacking-0.0.0-py3.10.egg-info\n'}
+[3.239705] (robot_arm_color_stacking) StdoutLine: {'line': b'running install_scripts\n'}
+[3.264273] (robot_arm_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[3.266117] (robot_arm_bringup) StdoutLine: {'line': b'creating ../../build/robot_arm_bringup/robot_arm_bringup.egg-info\n'}
+[3.266668] (robot_arm_bringup) StdoutLine: {'line': b'writing ../../build/robot_arm_bringup/robot_arm_bringup.egg-info/PKG-INFO\n'}
+[3.267298] (robot_arm_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_arm_bringup/robot_arm_bringup.egg-info/dependency_links.txt\n'}
+[3.267621] (robot_arm_bringup) StdoutLine: {'line': b'writing entry points to ../../build/robot_arm_bringup/robot_arm_bringup.egg-info/entry_points.txt\n'}
+[3.267914] (robot_arm_bringup) StdoutLine: {'line': b'writing requirements to ../../build/robot_arm_bringup/robot_arm_bringup.egg-info/requires.txt\n'}
+[3.268170] (robot_arm_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/robot_arm_bringup/robot_arm_bringup.egg-info/top_level.txt\n'}
+[3.268715] (robot_arm_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_arm_bringup/robot_arm_bringup.egg-info/SOURCES.txt'\n"}
+[3.273615] (robot_arm_bringup) StdoutLine: {'line': b"reading manifest file '../../build/robot_arm_bringup/robot_arm_bringup.egg-info/SOURCES.txt'\n"}
+[3.275975] (robot_arm_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_arm_bringup/robot_arm_bringup.egg-info/SOURCES.txt'\n"}
+[3.276367] (robot_arm_bringup) StdoutLine: {'line': b'running build\n'}
+[3.276620] (robot_arm_bringup) StdoutLine: {'line': b'running build_py\n'}
+[3.276926] (robot_arm_bringup) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/build\n'}
+[3.277188] (robot_arm_bringup) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/build/lib\n'}
+[3.277461] (robot_arm_bringup) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/build/lib/robot_arm_bringup\n'}
+[3.277642] (robot_arm_bringup) StdoutLine: {'line': b'copying robot_arm_bringup/__init__.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/build/lib/robot_arm_bringup\n'}
+[3.277899] (robot_arm_bringup) StdoutLine: {'line': b'running install\n'}
+[3.278794] (robot_arm_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[3.280672] (robot_arm_bringup) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/lib/python3.10/site-packages/robot_arm_bringup\n'}
+[3.281132] (robot_arm_bringup) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/build/lib/robot_arm_bringup/__init__.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/lib/python3.10/site-packages/robot_arm_bringup\n'}
+[3.282349] (robot_arm_bringup) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/lib/python3.10/site-packages/robot_arm_bringup/__init__.py to __init__.cpython-310.pyc\n'}
+[3.282942] (robot_arm_bringup) StdoutLine: {'line': b'running install_data\n'}
+[3.283236] (robot_arm_bringup) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/share/ament_index\n'}
+[3.283467] (robot_arm_bringup) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/share/ament_index/resource_index\n'}
+[3.283699] (robot_arm_bringup) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/share/ament_index/resource_index/packages\n'}
+[3.283923] (robot_arm_bringup) StdoutLine: {'line': b'copying resource/robot_arm_bringup -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/share/ament_index/resource_index/packages\n'}
+[3.284136] (robot_arm_bringup) StdoutLine: {'line': b'copying package.xml -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/share/robot_arm_bringup\n'}
+[3.284364] (robot_arm_bringup) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/share/robot_arm_bringup/launch\n'}
+[3.284598] (robot_arm_bringup) StdoutLine: {'line': b'copying launch/color_stacking_bringup.launch.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/share/robot_arm_bringup/launch\n'}
+[3.285352] (robot_arm_bringup) StdoutLine: {'line': b'copying launch/block_cls_bringup.launch.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/share/robot_arm_bringup/launch\n'}
+[3.285776] (robot_arm_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.290710] (robot_arm_bringup) StdoutLine: {'line': b'Copying ../../build/robot_arm_bringup/robot_arm_bringup.egg-info to /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_bringup/lib/python3.10/site-packages/robot_arm_bringup-0.0.0-py3.10.egg-info\n'}
+[3.293103] (robot_arm_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[3.293845] (robot_arm_color_stacking) StdoutLine: {'line': b'Installing color_stacking script to /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/robot_arm_color_stacking/lib/robot_arm_color_stacking\n'}
+[3.295090] (robot_arm_color_stacking) StdoutLine: {'line': b"writing list of installed files to '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_color_stacking/install.log'\n"}
+[3.313092] (-) TimerEvent: {}
+[3.347028] (robot_arm_bringup) StdoutLine: {'line': b"writing list of installed files to '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/robot_arm_bringup/install.log'\n"}
+[3.394620] (robot_arm_color_stacking) CommandEnded: {'returncode': 0}
+[3.413347] (-) TimerEvent: {}
+[3.429794] (robot_arm_color_stacking) JobEnded: {'identifier': 'robot_arm_color_stacking', 'rc': 0}
+[3.443625] (robot_arm_bringup) CommandEnded: {'returncode': 0}
+[3.445671] (dofbot_info) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.458019] (robot_arm_bringup) JobEnded: {'identifier': 'robot_arm_bringup', 'rc': 0}
+[3.499551] (dofbot_info) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.502911] (dofbot_info) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.524861] (-) TimerEvent: {}
+[3.578556] (dofbot_info) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.579042] (dofbot_info) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.579238] (dofbot_info) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.579405] (dofbot_info) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[3.624992] (-) TimerEvent: {}
+[3.634974] (dofbot_info) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.713909] (dofbot_info) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.725069] (-) TimerEvent: {}
+[3.759347] (dofbot_info) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.761700] (dofbot_info) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.767811] (dofbot_info) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.822097] (dofbot_info) StdoutLine: {'line': b'-- Generating done\n'}
+[3.825149] (-) TimerEvent: {}
+[3.844127] (dofbot_info) StdoutLine: {'line': b'-- Build files have been written to: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info\n'}
+[3.858410] (dofbot_info) CommandEnded: {'returncode': 0}
+[3.859524] (dofbot_info) JobProgress: {'identifier': 'dofbot_info', 'progress': 'build'}
+[3.861029] (dofbot_info) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info', '--', '-j3', '-l3'], 'cwd': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 59308 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver::/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu:/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ASCEND_TOOLKIT_HOME', '/usr/local/Ascend/ascend-toolkit/latest'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('ASCEND_OPP_PATH', '/usr/local/Ascend/ascend-toolkit/latest/opp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '10'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/usr/local/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TOOLCHAIN_HOME', '/usr/local/Ascend/ascend-toolkit/latest/toolkit'), ('ASCEND_AICPU_PATH', '/usr/local/Ascend/ascend-toolkit/latest'), ('PWD', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/usr/local/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.137.1 59308 192.168.137.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:'), ('ASCEND_HOME_PATH', '/usr/local/Ascend/ascend-toolkit/latest'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.925314] (-) TimerEvent: {}
+[3.950043] (dofbot_info) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.025526] (-) TimerEvent: {}
+[4.126054] (-) TimerEvent: {}
+[4.226501] (-) TimerEvent: {}
+[4.326930] (-) TimerEvent: {}
+[4.427339] (-) TimerEvent: {}
+[4.527767] (-) TimerEvent: {}
+[4.628236] (-) TimerEvent: {}
+[4.728629] (-) TimerEvent: {}
+[4.829029] (-) TimerEvent: {}
+[4.898229] (dofbot_info) StdoutLine: {'line': b'[  3%] Built target dofbot_info__cpp\n'}
+[4.929173] (-) TimerEvent: {}
+[4.948296] (dofbot_info) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_dofbot_info\n'}
+[4.965857] (dofbot_info) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.029306] (-) TimerEvent: {}
+[5.129769] (-) TimerEvent: {}
+[5.230192] (-) TimerEvent: {}
+[5.330596] (-) TimerEvent: {}
+[5.430994] (-) TimerEvent: {}
+[5.531413] (-) TimerEvent: {}
+[5.625870] (dofbot_info) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/dofbot_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dofbot_info/srv/kinemarics__type_support.cpp.o\x1b[0m\n'}
+[5.631514] (-) TimerEvent: {}
+[5.731965] (-) TimerEvent: {}
+[5.832478] (-) TimerEvent: {}
+[5.933055] (-) TimerEvent: {}
+[6.033562] (-) TimerEvent: {}
+[6.134071] (-) TimerEvent: {}
+[6.230422] (dofbot_info) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libdofbot_info__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.234151] (-) TimerEvent: {}
+[6.306316] (dofbot_info) StdoutLine: {'line': b'[ 12%] Built target dofbot_info__rosidl_typesupport_cpp\n'}
+[6.324276] (dofbot_info) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.334276] (-) TimerEvent: {}
+[6.434712] (-) TimerEvent: {}
+[6.535167] (-) TimerEvent: {}
+[6.635638] (-) TimerEvent: {}
+[6.736080] (-) TimerEvent: {}
+[6.836517] (-) TimerEvent: {}
+[6.937022] (-) TimerEvent: {}
+[7.037463] (-) TimerEvent: {}
+[7.063659] (dofbot_info) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/dofbot_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dofbot_info/srv/detail/dds_fastrtps/kinemarics__type_support.cpp.o\x1b[0m\n'}
+[7.137613] (-) TimerEvent: {}
+[7.238131] (-) TimerEvent: {}
+[7.338627] (-) TimerEvent: {}
+[7.439129] (-) TimerEvent: {}
+[7.539638] (-) TimerEvent: {}
+[7.640149] (-) TimerEvent: {}
+[7.740652] (-) TimerEvent: {}
+[7.841220] (-) TimerEvent: {}
+[7.941719] (-) TimerEvent: {}
+[8.042230] (-) TimerEvent: {}
+[8.045045] (dofbot_info) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libdofbot_info__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.142382] (-) TimerEvent: {}
+[8.213955] (dofbot_info) StdoutLine: {'line': b'[ 22%] Built target dofbot_info__rosidl_typesupport_fastrtps_cpp\n'}
+[8.231554] (dofbot_info) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.242463] (-) TimerEvent: {}
+[8.342876] (-) TimerEvent: {}
+[8.443315] (-) TimerEvent: {}
+[8.543767] (-) TimerEvent: {}
+[8.644229] (-) TimerEvent: {}
+[8.744731] (-) TimerEvent: {}
+[8.845191] (-) TimerEvent: {}
+[8.898107] (dofbot_info) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/dofbot_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dofbot_info/srv/detail/kinemarics__type_support.cpp.o\x1b[0m\n'}
+[8.945336] (-) TimerEvent: {}
+[9.045848] (-) TimerEvent: {}
+[9.146362] (-) TimerEvent: {}
+[9.246863] (-) TimerEvent: {}
+[9.347368] (-) TimerEvent: {}
+[9.447866] (-) TimerEvent: {}
+[9.548374] (-) TimerEvent: {}
+[9.648921] (-) TimerEvent: {}
+[9.749432] (-) TimerEvent: {}
+[9.798047] (dofbot_info) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libdofbot_info__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.849584] (-) TimerEvent: {}
+[9.931242] (dofbot_info) StdoutLine: {'line': b'[ 32%] Built target dofbot_info__rosidl_typesupport_introspection_cpp\n'}
+[9.949694] (-) TimerEvent: {}
+[10.050156] (-) TimerEvent: {}
+[10.150607] (-) TimerEvent: {}
+[10.251046] (-) TimerEvent: {}
+[10.351490] (-) TimerEvent: {}
+[10.451922] (-) TimerEvent: {}
+[10.494834] (dofbot_info) StdoutLine: {'line': b'running egg_info\n'}
+[10.496164] (dofbot_info) StdoutLine: {'line': b'creating dofbot_info.egg-info\n'}
+[10.496588] (dofbot_info) StdoutLine: {'line': b'writing dofbot_info.egg-info/PKG-INFO\n'}
+[10.497416] (dofbot_info) StdoutLine: {'line': b'writing dependency_links to dofbot_info.egg-info/dependency_links.txt\n'}
+[10.497757] (dofbot_info) StdoutLine: {'line': b'writing top-level names to dofbot_info.egg-info/top_level.txt\n'}
+[10.498220] (dofbot_info) StdoutLine: {'line': b"writing manifest file 'dofbot_info.egg-info/SOURCES.txt'\n"}
+[10.502473] (dofbot_info) StdoutLine: {'line': b"reading manifest file 'dofbot_info.egg-info/SOURCES.txt'\n"}
+[10.503575] (dofbot_info) StdoutLine: {'line': b"writing manifest file 'dofbot_info.egg-info/SOURCES.txt'\n"}
+[10.552074] (-) TimerEvent: {}
+[10.598969] (dofbot_info) StdoutLine: {'line': b'[ 32%] Built target ament_cmake_python_build_dofbot_info_egg\n'}
+[10.616606] (dofbot_info) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.652192] (-) TimerEvent: {}
+[10.752632] (-) TimerEvent: {}
+[10.853083] (-) TimerEvent: {}
+[10.953515] (-) TimerEvent: {}
+[11.053971] (-) TimerEvent: {}
+[11.154444] (-) TimerEvent: {}
+[11.254857] (-) TimerEvent: {}
+[11.355312] (-) TimerEvent: {}
+[11.439061] (dofbot_info) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/dofbot_info__rosidl_generator_c.dir/rosidl_generator_c/dofbot_info/srv/detail/kinemarics__functions.c.o\x1b[0m\n'}
+[11.455440] (-) TimerEvent: {}
+[11.555940] (-) TimerEvent: {}
+[11.596969] (dofbot_info) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libdofbot_info__rosidl_generator_c.so\x1b[0m\n'}
+[11.656092] (-) TimerEvent: {}
+[11.661871] (dofbot_info) StdoutLine: {'line': b'[ 41%] Built target dofbot_info__rosidl_generator_c\n'}
+[11.679499] (dofbot_info) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.756198] (-) TimerEvent: {}
+[11.856639] (-) TimerEvent: {}
+[11.957150] (-) TimerEvent: {}
+[12.057814] (-) TimerEvent: {}
+[12.158307] (-) TimerEvent: {}
+[12.258774] (-) TimerEvent: {}
+[12.359244] (-) TimerEvent: {}
+[12.413548] (dofbot_info) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/dofbot_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dofbot_info/srv/detail/kinemarics__type_support_c.cpp.o\x1b[0m\n'}
+[12.459377] (-) TimerEvent: {}
+[12.559886] (-) TimerEvent: {}
+[12.660396] (-) TimerEvent: {}
+[12.760923] (-) TimerEvent: {}
+[12.861424] (-) TimerEvent: {}
+[12.961925] (-) TimerEvent: {}
+[13.062432] (-) TimerEvent: {}
+[13.162939] (-) TimerEvent: {}
+[13.223651] (dofbot_info) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libdofbot_info__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.263081] (-) TimerEvent: {}
+[13.363605] (-) TimerEvent: {}
+[13.377457] (dofbot_info) StdoutLine: {'line': b'[ 51%] Built target dofbot_info__rosidl_typesupport_fastrtps_c\n'}
+[13.395142] (dofbot_info) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.463700] (-) TimerEvent: {}
+[13.564166] (-) TimerEvent: {}
+[13.664651] (-) TimerEvent: {}
+[13.765240] (-) TimerEvent: {}
+[13.865681] (-) TimerEvent: {}
+[13.966140] (-) TimerEvent: {}
+[14.008517] (dofbot_info) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/dofbot_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/dofbot_info/srv/kinemarics__type_support.cpp.o\x1b[0m\n'}
+[14.066300] (-) TimerEvent: {}
+[14.097710] (dofbot_info) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libdofbot_info__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.166433] (-) TimerEvent: {}
+[14.171206] (dofbot_info) StdoutLine: {'line': b'[ 61%] Built target dofbot_info__rosidl_typesupport_c\n'}
+[14.189252] (dofbot_info) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.266537] (-) TimerEvent: {}
+[14.366974] (-) TimerEvent: {}
+[14.467398] (-) TimerEvent: {}
+[14.567837] (-) TimerEvent: {}
+[14.668302] (-) TimerEvent: {}
+[14.768714] (-) TimerEvent: {}
+[14.869158] (-) TimerEvent: {}
+[14.874541] (dofbot_info) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/dofbot_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dofbot_info/srv/detail/kinemarics__type_support.c.o\x1b[0m\n'}
+[14.950432] (dofbot_info) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libdofbot_info__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.969296] (-) TimerEvent: {}
+[15.002813] (dofbot_info) StdoutLine: {'line': b'[ 70%] Built target dofbot_info__rosidl_typesupport_introspection_c\n'}
+[15.044408] (dofbot_info) StdoutLine: {'line': b'[ 70%] Built target dofbot_info\n'}
+[15.069446] (-) TimerEvent: {}
+[15.104743] (dofbot_info) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.169559] (-) TimerEvent: {}
+[15.269990] (-) TimerEvent: {}
+[15.370414] (-) TimerEvent: {}
+[15.470847] (-) TimerEvent: {}
+[15.571288] (-) TimerEvent: {}
+[15.671763] (-) TimerEvent: {}
+[15.772186] (-) TimerEvent: {}
+[15.872562] (-) TimerEvent: {}
+[15.972970] (-) TimerEvent: {}
+[16.073411] (-) TimerEvent: {}
+[16.173901] (-) TimerEvent: {}
+[16.274461] (-) TimerEvent: {}
+[16.290219] (dofbot_info) StdoutLine: {'line': b'[ 74%] Built target dofbot_info__py\n'}
+[16.325766] (dofbot_info) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/dofbot_info__rosidl_generator_py.dir/rosidl_generator_py/dofbot_info/srv/_kinemarics_s.c.o\x1b[0m\n'}
+[16.374598] (-) TimerEvent: {}
+[16.475097] (-) TimerEvent: {}
+[16.575638] (-) TimerEvent: {}
+[16.642010] (dofbot_info) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dofbot_info/libdofbot_info__rosidl_generator_py.so\x1b[0m\n'}
+[16.675779] (-) TimerEvent: {}
+[16.715505] (dofbot_info) StdoutLine: {'line': b'[ 80%] Built target dofbot_info__rosidl_generator_py\n'}
+[16.751267] (dofbot_info) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/dofbot_info__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dofbot_info/_dofbot_info_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.775909] (-) TimerEvent: {}
+[16.876388] (-) TimerEvent: {}
+[16.958325] (dofbot_info) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dofbot_info/dofbot_info_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[16.976532] (-) TimerEvent: {}
+[17.021778] (dofbot_info) StdoutLine: {'line': b'[ 87%] Built target dofbot_info__rosidl_typesupport_fastrtps_c__pyext\n'}
+[17.065093] (dofbot_info) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/dofbot_info__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dofbot_info/_dofbot_info_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.076991] (-) TimerEvent: {}
+[17.177498] (-) TimerEvent: {}
+[17.256942] (dofbot_info) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dofbot_info/dofbot_info_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[17.277630] (-) TimerEvent: {}
+[17.316473] (dofbot_info) StdoutLine: {'line': b'[ 93%] Built target dofbot_info__rosidl_typesupport_c__pyext\n'}
+[17.352442] (dofbot_info) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/dofbot_info__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dofbot_info/_dofbot_info_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.377771] (-) TimerEvent: {}
+[17.478234] (-) TimerEvent: {}
+[17.565631] (dofbot_info) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dofbot_info/dofbot_info_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[17.578394] (-) TimerEvent: {}
+[17.635174] (dofbot_info) StdoutLine: {'line': b'[100%] Built target dofbot_info__rosidl_typesupport_introspection_c__pyext\n'}
+[17.656791] (dofbot_info) CommandEnded: {'returncode': 0}
+[17.658144] (dofbot_info) JobProgress: {'identifier': 'dofbot_info', 'progress': 'install'}
+[17.674866] (dofbot_info) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info'], 'cwd': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 59308 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver::/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu:/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ASCEND_TOOLKIT_HOME', '/usr/local/Ascend/ascend-toolkit/latest'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('ASCEND_OPP_PATH', '/usr/local/Ascend/ascend-toolkit/latest/opp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '10'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/usr/local/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TOOLCHAIN_HOME', '/usr/local/Ascend/ascend-toolkit/latest/toolkit'), ('ASCEND_AICPU_PATH', '/usr/local/Ascend/ascend-toolkit/latest'), ('PWD', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_info'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/usr/local/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.137.1 59308 192.168.137.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:'), ('ASCEND_HOME_PATH', '/usr/local/Ascend/ascend-toolkit/latest'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.678456] (-) TimerEvent: {}
+[17.691568] (dofbot_info) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.691952] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/ament_index/resource_index/rosidl_interfaces/dofbot_info\n'}
+[17.692204] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info\n'}
+[17.692400] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv\n'}
+[17.692598] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/kinemarics.h\n'}
+[17.692827] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail\n'}
+[17.692996] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__functions.h\n'}
+[17.693418] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__struct.h\n'}
+[17.693635] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__type_support.h\n'}
+[17.693828] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__functions.c\n'}
+[17.694022] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg\n'}
+[17.694210] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.694405] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/library_path.sh\n'}
+[17.694605] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/library_path.dsv\n'}
+[17.694910] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_generator_c.so\n'}
+[17.695430] (dofbot_info) StdoutLine: {'line': b'-- Set runtime path of "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_generator_c.so" to ""\n'}
+[17.695615] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info\n'}
+[17.695840] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv\n'}
+[17.696045] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail\n'}
+[17.696220] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__rosidl_typesupport_fastrtps_c.h\n'}
+[17.696411] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg\n'}
+[17.696569] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.696725] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_fastrtps_c.so\n'}
+[17.696953] (dofbot_info) StdoutLine: {'line': b'-- Set runtime path of "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.697218] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info\n'}
+[17.697384] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv\n'}
+[17.697593] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail\n'}
+[17.697777] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__type_support.c\n'}
+[17.697962] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__rosidl_typesupport_introspection_c.h\n'}
+[17.698116] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg\n'}
+[17.698264] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.698449] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_introspection_c.so\n'}
+[17.698631] (dofbot_info) StdoutLine: {'line': b'-- Set runtime path of "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.698804] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_c.so\n'}
+[17.698985] (dofbot_info) StdoutLine: {'line': b'-- Set runtime path of "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_c.so" to ""\n'}
+[17.699212] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info\n'}
+[17.699426] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv\n'}
+[17.699631] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/kinemarics.hpp\n'}
+[17.699823] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail\n'}
+[17.700011] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__builder.hpp\n'}
+[17.700224] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__type_support.hpp\n'}
+[17.700411] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__struct.hpp\n'}
+[17.700637] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__traits.hpp\n'}
+[17.700837] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg\n'}
+[17.701003] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[17.701169] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info\n'}
+[17.701388] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv\n'}
+[17.701547] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail\n'}
+[17.701726] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.701883] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/dds_fastrtps\n'}
+[17.702034] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg\n'}
+[17.702214] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.702446] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.702621] (dofbot_info) StdoutLine: {'line': b'-- Set runtime path of "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.702790] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info\n'}
+[17.702971] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv\n'}
+[17.703124] (dofbot_info) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail\n'}
+[17.703271] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.703463] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/include/dofbot_info/dofbot_info/srv/detail/kinemarics__type_support.cpp\n'}
+[17.703644] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_introspection_cpp.so\n'}
+[17.703800] (dofbot_info) StdoutLine: {'line': b'-- Set runtime path of "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.703951] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_cpp.so\n'}
+[17.704154] (dofbot_info) StdoutLine: {'line': b'-- Set runtime path of "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_typesupport_cpp.so" to ""\n'}
+[17.704360] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/pythonpath.sh\n'}
+[17.704520] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/pythonpath.dsv\n'}
+[17.704700] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info-0.0.0-py3.10.egg-info\n'}
+[17.704903] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[17.705092] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[17.705279] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[17.705462] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[17.705654] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info\n'}
+[17.705859] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/srv\n'}
+[17.706038] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/srv/_kinemarics.py\n'}
+[17.706220] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/srv/__init__.py\n'}
+[17.706404] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/srv/_kinemarics_s.c\n'}
+[17.706583] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[17.706781] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/_dofbot_info_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.706983] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/_dofbot_info_s.ep.rosidl_typesupport_c.c\n'}
+[17.707168] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[17.707353] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/__init__.py\n'}
+[17.707535] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/_dofbot_info_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.707718] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/libdofbot_info__rosidl_generator_py.so\n'}
+[17.707869] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[17.778582] (-) TimerEvent: {}
+[17.796032] (dofbot_info) StdoutLine: {'line': b"Listing '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info'...\n"}
+[17.796404] (dofbot_info) StdoutLine: {'line': b"Compiling '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/__init__.py'...\n"}
+[17.796591] (dofbot_info) StdoutLine: {'line': b"Listing '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/srv'...\n"}
+[17.796758] (dofbot_info) StdoutLine: {'line': b"Compiling '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/srv/__init__.py'...\n"}
+[17.797084] (dofbot_info) StdoutLine: {'line': b"Compiling '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/srv/_kinemarics.py'...\n"}
+[17.810462] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[17.810973] (dofbot_info) StdoutLine: {'line': b'-- Set runtime path of "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[17.811309] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[17.811815] (dofbot_info) StdoutLine: {'line': b'-- Set runtime path of "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[17.812143] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[17.812648] (dofbot_info) StdoutLine: {'line': b'-- Set runtime path of "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages/dofbot_info/dofbot_info_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[17.812863] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_generator_py.so\n'}
+[17.813415] (dofbot_info) StdoutLine: {'line': b'-- Set runtime path of "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib/libdofbot_info__rosidl_generator_py.so" to ""\n'}
+[17.813620] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/srv/Kinemarics.idl\n'}
+[17.813838] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/srv/Kinemarics.srv\n'}
+[17.814051] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/srv/Kinemarics_Request.msg\n'}
+[17.814275] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/srv/Kinemarics_Response.msg\n'}
+[17.814561] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/ament_index/resource_index/package_run_dependencies/dofbot_info\n'}
+[17.814846] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/ament_index/resource_index/parent_prefix_path/dofbot_info\n'}
+[17.815061] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/ament_prefix_path.sh\n'}
+[17.815275] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/ament_prefix_path.dsv\n'}
+[17.815490] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/path.sh\n'}
+[17.815699] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/environment/path.dsv\n'}
+[17.815914] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/local_setup.bash\n'}
+[17.816128] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/local_setup.sh\n'}
+[17.816353] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/local_setup.zsh\n'}
+[17.816569] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/local_setup.dsv\n'}
+[17.816781] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/package.dsv\n'}
+[17.817200] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/ament_index/resource_index/packages/dofbot_info\n'}
+[17.817500] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_generator_cExport.cmake\n'}
+[17.817751] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.818024] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[17.818260] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[17.818508] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.818745] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.818991] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_cExport.cmake\n'}
+[17.819230] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.819474] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_generator_cppExport.cmake\n'}
+[17.819723] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[17.819962] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.820228] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.820464] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.820711] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_cppExport.cmake\n'}
+[17.821038] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_info__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.821309] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_generator_pyExport.cmake\n'}
+[17.821546] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/export_dofbot_info__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.821771] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/rosidl_cmake-extras.cmake\n'}
+[17.821991] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.822205] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.822431] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.822652] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.822868] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.823096] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.823356] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_infoConfig.cmake\n'}
+[17.823627] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake/dofbot_infoConfig-version.cmake\n'}
+[17.823840] (dofbot_info) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/package.xml\n'}
+[17.827873] (dofbot_info) CommandEnded: {'returncode': 0}
+[17.866278] (dofbot_info) JobEnded: {'identifier': 'dofbot_info', 'rc': 0}
+[17.868467] (dofbot_garbage_yolov5) JobStarted: {'identifier': 'dofbot_garbage_yolov5'}
+[17.876150] (dofbot_moveit) JobStarted: {'identifier': 'dofbot_moveit'}
+[17.880961] (-) TimerEvent: {}
+[17.981999] (-) TimerEvent: {}
+[18.082469] (-) TimerEvent: {}
+[18.182943] (-) TimerEvent: {}
+[18.283377] (-) TimerEvent: {}
+[18.383779] (-) TimerEvent: {}
+[18.484226] (-) TimerEvent: {}
+[18.523649] (dofbot_moveit) JobProgress: {'identifier': 'dofbot_moveit', 'progress': 'cmake'}
+[18.523817] (dofbot_moveit) Command: {'cmd': ['/usr/bin/cmake', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/dofbot_moveit', '-DCMAKE_INSTALL_PREFIX=/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit'], 'cwd': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 59308 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu:/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ASCEND_TOOLKIT_HOME', '/usr/local/Ascend/ascend-toolkit/latest'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('ASCEND_OPP_PATH', '/usr/local/Ascend/ascend-toolkit/latest/opp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '10'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/usr/local/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TOOLCHAIN_HOME', '/usr/local/Ascend/ascend-toolkit/latest/toolkit'), ('ASCEND_AICPU_PATH', '/usr/local/Ascend/ascend-toolkit/latest'), ('PWD', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/usr/local/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.137.1 59308 192.168.137.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:'), ('ASCEND_HOME_PATH', '/usr/local/Ascend/ascend-toolkit/latest'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info:/opt/ros/humble')]), 'shell': False}
+[18.587492] (-) TimerEvent: {}
+[18.687988] (-) TimerEvent: {}
+[18.688744] (dofbot_moveit) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[18.788118] (-) TimerEvent: {}
+[18.806060] (dofbot_moveit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[18.820993] (dofbot_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[18.888250] (-) TimerEvent: {}
+[18.950907] (dofbot_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[18.970561] (dofbot_moveit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[18.971128] (dofbot_moveit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[18.972073] (dofbot_moveit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[18.979243] (dofbot_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[18.988316] (-) TimerEvent: {}
+[19.088876] (-) TimerEvent: {}
+[19.189366] (-) TimerEvent: {}
+[19.192932] (dofbot_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[19.210252] (dofbot_moveit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[19.210861] (dofbot_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[19.212037] (dofbot_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[19.216433] (dofbot_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[19.289490] (-) TimerEvent: {}
+[19.389957] (-) TimerEvent: {}
+[19.407978] (dofbot_garbage_yolov5) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dofbot_garbage_yolov5', 'build', '--build-base', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build', 'install', '--record', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/dofbot_garbage_yolov5', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'SSH_CLIENT': '192.168.137.1 59308 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu:/usr/local/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'CONDA_SHLVL': '0', 'OLDPWD': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ASCEND_TOOLKIT_HOME': '/usr/local/Ascend/ascend-toolkit/latest', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', '_CE_M': '', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'ASCEND_OPP_PATH': '/usr/local/Ascend/ascend-toolkit/latest/opp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '10', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/usr/local/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TOOLCHAIN_HOME': '/usr/local/Ascend/ascend-toolkit/latest/toolkit', 'ASCEND_AICPU_PATH': '/usr/local/Ascend/ascend-toolkit/latest', 'PWD': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/usr/local/miniconda3/bin/conda', 'SSH_CONNECTION': '192.168.137.1 59308 192.168.137.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages:/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:', 'ASCEND_HOME_PATH': '/usr/local/Ascend/ascend-toolkit/latest', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info'}, 'shell': False}
+[19.490090] (-) TimerEvent: {}
+[19.592875] (-) TimerEvent: {}
+[19.645411] (dofbot_moveit) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[19.693007] (-) TimerEvent: {}
+[19.793495] (-) TimerEvent: {}
+[19.851957] (dofbot_moveit) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[19.893612] (-) TimerEvent: {}
+[19.953325] (dofbot_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[19.964000] (dofbot_moveit) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[19.979601] (dofbot_garbage_yolov5) StdoutLine: {'line': b'running egg_info\n'}
+[19.981179] (dofbot_garbage_yolov5) StdoutLine: {'line': b'creating ../../build/dofbot_garbage_yolov5/dofbot_garbage_yolov5.egg-info\n'}
+[19.981607] (dofbot_garbage_yolov5) StdoutLine: {'line': b'writing ../../build/dofbot_garbage_yolov5/dofbot_garbage_yolov5.egg-info/PKG-INFO\n'}
+[19.982087] (dofbot_garbage_yolov5) StdoutLine: {'line': b'writing dependency_links to ../../build/dofbot_garbage_yolov5/dofbot_garbage_yolov5.egg-info/dependency_links.txt\n'}
+[19.982363] (dofbot_garbage_yolov5) StdoutLine: {'line': b'writing entry points to ../../build/dofbot_garbage_yolov5/dofbot_garbage_yolov5.egg-info/entry_points.txt\n'}
+[19.982597] (dofbot_garbage_yolov5) StdoutLine: {'line': b'writing requirements to ../../build/dofbot_garbage_yolov5/dofbot_garbage_yolov5.egg-info/requires.txt\n'}
+[19.982834] (dofbot_garbage_yolov5) StdoutLine: {'line': b'writing top-level names to ../../build/dofbot_garbage_yolov5/dofbot_garbage_yolov5.egg-info/top_level.txt\n'}
+[19.983067] (dofbot_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[19.983316] (dofbot_garbage_yolov5) StdoutLine: {'line': b"writing manifest file '../../build/dofbot_garbage_yolov5/dofbot_garbage_yolov5.egg-info/SOURCES.txt'\n"}
+[19.987176] (dofbot_garbage_yolov5) StderrLine: {'line': b"package init file 'dofbot_garbage_yolov5/utils/__init__.py' not found (or not a regular file)\n"}
+[19.988556] (dofbot_garbage_yolov5) StdoutLine: {'line': b"reading manifest file '../../build/dofbot_garbage_yolov5/dofbot_garbage_yolov5.egg-info/SOURCES.txt'\n"}
+[19.990943] (dofbot_garbage_yolov5) StdoutLine: {'line': b"writing manifest file '../../build/dofbot_garbage_yolov5/dofbot_garbage_yolov5.egg-info/SOURCES.txt'\n"}
+[19.991234] (dofbot_garbage_yolov5) StdoutLine: {'line': b'running build\n'}
+[19.991458] (dofbot_garbage_yolov5) StdoutLine: {'line': b'running build_py\n'}
+[19.991759] (dofbot_garbage_yolov5) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build\n'}
+[19.992010] (dofbot_garbage_yolov5) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib\n'}
+[19.992229] (dofbot_garbage_yolov5) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5\n'}
+[19.992460] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying dofbot_garbage_yolov5/main.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5\n'}
+[19.992630] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying dofbot_garbage_yolov5/__init__.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5\n'}
+[19.993034] (dofbot_garbage_yolov5) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/utils\n'}
+[19.993271] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying dofbot_garbage_yolov5/utils/npu_utils.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/utils\n'}
+[19.993519] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying dofbot_garbage_yolov5/utils/det_utils.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/utils\n'}
+[19.993698] (-) TimerEvent: {}
+[19.994365] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying dofbot_garbage_yolov5/utils/garbage_grap.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/utils\n'}
+[19.994845] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying dofbot_garbage_yolov5/utils/dofbot_config.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/utils\n'}
+[19.995501] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying dofbot_garbage_yolov5/utils/garbage_identify.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/utils\n'}
+[19.996678] (dofbot_garbage_yolov5) StdoutLine: {'line': b'running install\n'}
+[19.997542] (dofbot_garbage_yolov5) StdoutLine: {'line': b'running install_lib\n'}
+[19.999159] (dofbot_garbage_yolov5) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5\n'}
+[19.999402] (dofbot_garbage_yolov5) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/utils\n'}
+[19.999636] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/utils/npu_utils.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/utils\n'}
+[19.999867] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/utils/det_utils.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/utils\n'}
+[20.000106] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/utils/garbage_grap.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/utils\n'}
+[20.000311] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/utils/dofbot_config.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/utils\n'}
+[20.000581] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/utils/garbage_identify.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/utils\n'}
+[20.001121] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/main.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5\n'}
+[20.001301] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/build/lib/dofbot_garbage_yolov5/__init__.py -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5\n'}
+[20.001955] (dofbot_garbage_yolov5) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/utils/npu_utils.py to npu_utils.cpython-310.pyc\n'}
+[20.004060] (dofbot_garbage_yolov5) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/utils/det_utils.py to det_utils.cpython-310.pyc\n'}
+[20.007936] (dofbot_garbage_yolov5) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/utils/garbage_grap.py to garbage_grap.cpython-310.pyc\n'}
+[20.009537] (dofbot_garbage_yolov5) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/utils/dofbot_config.py to dofbot_config.cpython-310.pyc\n'}
+[20.019750] (dofbot_garbage_yolov5) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/utils/garbage_identify.py to garbage_identify.cpython-310.pyc\n'}
+[20.025397] (dofbot_garbage_yolov5) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/main.py to main.cpython-310.pyc\n'}
+[20.025689] (dofbot_garbage_yolov5) StdoutLine: {'line': b'byte-compiling /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5/__init__.py to __init__.cpython-310.pyc\n'}
+[20.025867] (dofbot_garbage_yolov5) StdoutLine: {'line': b'running install_data\n'}
+[20.026028] (dofbot_garbage_yolov5) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/ament_index\n'}
+[20.026186] (dofbot_garbage_yolov5) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/ament_index/resource_index\n'}
+[20.026338] (dofbot_garbage_yolov5) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/ament_index/resource_index/packages\n'}
+[20.026488] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying resource/dofbot_garbage_yolov5 -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/ament_index/resource_index/packages\n'}
+[20.026639] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying package.xml -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5\n'}
+[20.026810] (dofbot_garbage_yolov5) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/config\n'}
+[20.026961] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying dofbot_garbage_yolov5/config/data_collect_idx.txt -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/config\n'}
+[20.027113] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying dofbot_garbage_yolov5/config/XYT_config.txt -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/config\n'}
+[20.027332] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying dofbot_garbage_yolov5/config/offset.txt -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/config\n'}
+[20.027501] (dofbot_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[20.027671] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying dofbot_garbage_yolov5/config/dp.bin -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/config\n'}
+[20.027825] (dofbot_garbage_yolov5) StdoutLine: {'line': b'creating /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/model\n'}
+[20.027975] (dofbot_garbage_yolov5) StdoutLine: {'line': b'copying dofbot_garbage_yolov5/model/coco_names.txt -> /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/share/dofbot_garbage_yolov5/model\n'}
+[20.028157] (dofbot_garbage_yolov5) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.028305] (dofbot_garbage_yolov5) StdoutLine: {'line': b'Copying ../../build/dofbot_garbage_yolov5/dofbot_garbage_yolov5.egg-info to /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/python3.10/site-packages/dofbot_garbage_yolov5-0.0.0-py3.10.egg-info\n'}
+[20.028456] (dofbot_garbage_yolov5) StdoutLine: {'line': b'running install_scripts\n'}
+[20.051473] (dofbot_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[20.077685] (dofbot_garbage_yolov5) StdoutLine: {'line': b'Installing block_cls script to /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_garbage_yolov5/lib/dofbot_garbage_yolov5\n'}
+[20.079612] (dofbot_garbage_yolov5) StdoutLine: {'line': b"writing list of installed files to '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_garbage_yolov5/install.log'\n"}
+[20.093870] (-) TimerEvent: {}
+[20.167129] (dofbot_garbage_yolov5) CommandEnded: {'returncode': 0}
+[20.179884] (dofbot_garbage_yolov5) JobEnded: {'identifier': 'dofbot_garbage_yolov5', 'rc': 0}
+[20.194094] (-) TimerEvent: {}
+[20.216548] (dofbot_moveit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[20.223734] (dofbot_moveit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[20.294196] (-) TimerEvent: {}
+[20.394647] (-) TimerEvent: {}
+[20.401629] (dofbot_moveit) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[20.457157] (dofbot_moveit) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[20.494740] (-) TimerEvent: {}
+[20.541006] (dofbot_moveit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[20.568218] (dofbot_moveit) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[20.596995] (-) TimerEvent: {}
+[20.697512] (-) TimerEvent: {}
+[20.711189] (dofbot_moveit) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[20.711943] (dofbot_moveit) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[20.797648] (-) TimerEvent: {}
+[20.848320] (dofbot_moveit) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[20.850661] (dofbot_moveit) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[20.897749] (-) TimerEvent: {}
+[20.998217] (-) TimerEvent: {}
+[21.004937] (dofbot_moveit) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[21.028589] (dofbot_moveit) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[21.031897] (dofbot_moveit) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[21.032248] (dofbot_moveit) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[21.039945] (dofbot_moveit) StdoutLine: {'line': b'-- Found dofbot_info: 0.0.0 (/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/share/dofbot_info/cmake)\n'}
+[21.067032] (dofbot_moveit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[21.098337] (-) TimerEvent: {}
+[21.198823] (-) TimerEvent: {}
+[21.255356] (dofbot_moveit) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[21.255783] (dofbot_moveit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/dofbot_moveit/include/dofbot_moveit\n'}
+[21.255975] (dofbot_moveit) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[21.257151] (dofbot_moveit) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[21.258562] (dofbot_moveit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.259732] (dofbot_moveit) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[21.262374] (dofbot_moveit) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[21.262578] (dofbot_moveit) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[21.263621] (dofbot_moveit) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[21.268206] (dofbot_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[21.288269] (dofbot_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[21.297448] (dofbot_moveit) StdoutLine: {'line': b'-- Build files have been written to: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_moveit\n'}
+[21.298881] (-) TimerEvent: {}
+[21.319566] (dofbot_moveit) CommandEnded: {'returncode': 0}
+[21.320742] (dofbot_moveit) JobProgress: {'identifier': 'dofbot_moveit', 'progress': 'build'}
+[21.321324] (dofbot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_moveit', '--', '-j3', '-l3'], 'cwd': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 59308 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu:/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ASCEND_TOOLKIT_HOME', '/usr/local/Ascend/ascend-toolkit/latest'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('ASCEND_OPP_PATH', '/usr/local/Ascend/ascend-toolkit/latest/opp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '10'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/usr/local/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TOOLCHAIN_HOME', '/usr/local/Ascend/ascend-toolkit/latest/toolkit'), ('ASCEND_AICPU_PATH', '/usr/local/Ascend/ascend-toolkit/latest'), ('PWD', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/usr/local/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.137.1 59308 192.168.137.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:'), ('ASCEND_HOME_PATH', '/usr/local/Ascend/ascend-toolkit/latest'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info:/opt/ros/humble')]), 'shell': False}
+[21.399049] (-) TimerEvent: {}
+[21.409154] (dofbot_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dofbot_server.dir/src/dofbot_server.cpp.o\x1b[0m\n'}
+[21.499184] (-) TimerEvent: {}
+[21.599693] (-) TimerEvent: {}
+[21.700183] (-) TimerEvent: {}
+[21.800670] (-) TimerEvent: {}
+[21.901197] (-) TimerEvent: {}
+[22.001676] (-) TimerEvent: {}
+[22.102169] (-) TimerEvent: {}
+[22.202690] (-) TimerEvent: {}
+[22.303194] (-) TimerEvent: {}
+[22.403688] (-) TimerEvent: {}
+[22.504176] (-) TimerEvent: {}
+[22.604696] (-) TimerEvent: {}
+[22.705388] (-) TimerEvent: {}
+[22.805865] (-) TimerEvent: {}
+[22.906343] (-) TimerEvent: {}
+[23.006823] (-) TimerEvent: {}
+[23.107320] (-) TimerEvent: {}
+[23.207805] (-) TimerEvent: {}
+[23.308297] (-) TimerEvent: {}
+[23.408843] (-) TimerEvent: {}
+[23.509320] (-) TimerEvent: {}
+[23.609801] (-) TimerEvent: {}
+[23.710286] (-) TimerEvent: {}
+[23.810823] (-) TimerEvent: {}
+[23.911304] (-) TimerEvent: {}
+[24.011800] (-) TimerEvent: {}
+[24.112302] (-) TimerEvent: {}
+[24.212859] (-) TimerEvent: {}
+[24.313356] (-) TimerEvent: {}
+[24.413847] (-) TimerEvent: {}
+[24.514345] (-) TimerEvent: {}
+[24.614847] (-) TimerEvent: {}
+[24.715340] (-) TimerEvent: {}
+[24.815817] (-) TimerEvent: {}
+[24.916286] (-) TimerEvent: {}
+[25.016891] (-) TimerEvent: {}
+[25.117404] (-) TimerEvent: {}
+[25.217900] (-) TimerEvent: {}
+[25.318377] (-) TimerEvent: {}
+[25.418862] (-) TimerEvent: {}
+[25.519351] (-) TimerEvent: {}
+[25.619865] (-) TimerEvent: {}
+[25.720353] (-) TimerEvent: {}
+[25.820879] (-) TimerEvent: {}
+[25.921339] (-) TimerEvent: {}
+[26.021816] (-) TimerEvent: {}
+[26.122324] (-) TimerEvent: {}
+[26.222819] (-) TimerEvent: {}
+[26.323314] (-) TimerEvent: {}
+[26.423828] (-) TimerEvent: {}
+[26.524350] (-) TimerEvent: {}
+[26.624918] (-) TimerEvent: {}
+[26.725417] (-) TimerEvent: {}
+[26.825905] (-) TimerEvent: {}
+[26.926392] (-) TimerEvent: {}
+[27.026900] (-) TimerEvent: {}
+[27.127413] (-) TimerEvent: {}
+[27.227906] (-) TimerEvent: {}
+[27.328392] (-) TimerEvent: {}
+[27.428907] (-) TimerEvent: {}
+[27.529407] (-) TimerEvent: {}
+[27.629914] (-) TimerEvent: {}
+[27.730404] (-) TimerEvent: {}
+[27.830868] (-) TimerEvent: {}
+[27.931328] (-) TimerEvent: {}
+[28.031821] (-) TimerEvent: {}
+[28.132344] (-) TimerEvent: {}
+[28.232888] (-) TimerEvent: {}
+[28.333389] (-) TimerEvent: {}
+[28.433890] (-) TimerEvent: {}
+[28.534400] (-) TimerEvent: {}
+[28.634916] (-) TimerEvent: {}
+[28.735419] (-) TimerEvent: {}
+[28.835963] (-) TimerEvent: {}
+[28.936448] (-) TimerEvent: {}
+[29.037013] (-) TimerEvent: {}
+[29.137527] (-) TimerEvent: {}
+[29.238023] (-) TimerEvent: {}
+[29.338520] (-) TimerEvent: {}
+[29.439025] (-) TimerEvent: {}
+[29.539530] (-) TimerEvent: {}
+[29.640042] (-) TimerEvent: {}
+[29.740534] (-) TimerEvent: {}
+[29.841091] (-) TimerEvent: {}
+[29.941578] (-) TimerEvent: {}
+[30.042082] (-) TimerEvent: {}
+[30.142594] (-) TimerEvent: {}
+[30.243123] (-) TimerEvent: {}
+[30.343615] (-) TimerEvent: {}
+[30.444111] (-) TimerEvent: {}
+[30.544618] (-) TimerEvent: {}
+[30.645274] (-) TimerEvent: {}
+[30.745770] (-) TimerEvent: {}
+[30.846255] (-) TimerEvent: {}
+[30.946749] (-) TimerEvent: {}
+[31.047254] (-) TimerEvent: {}
+[31.147771] (-) TimerEvent: {}
+[31.248255] (-) TimerEvent: {}
+[31.348743] (-) TimerEvent: {}
+[31.449303] (-) TimerEvent: {}
+[31.549803] (-) TimerEvent: {}
+[31.650312] (-) TimerEvent: {}
+[31.750800] (-) TimerEvent: {}
+[31.851280] (-) TimerEvent: {}
+[31.951765] (-) TimerEvent: {}
+[32.052267] (-) TimerEvent: {}
+[32.152989] (-) TimerEvent: {}
+[32.253502] (-) TimerEvent: {}
+[32.354023] (-) TimerEvent: {}
+[32.454544] (-) TimerEvent: {}
+[32.555072] (-) TimerEvent: {}
+[32.655600] (-) TimerEvent: {}
+[32.756106] (-) TimerEvent: {}
+[32.856613] (-) TimerEvent: {}
+[32.957114] (-) TimerEvent: {}
+[33.057600] (-) TimerEvent: {}
+[33.158098] (-) TimerEvent: {}
+[33.258591] (-) TimerEvent: {}
+[33.359073] (-) TimerEvent: {}
+[33.459536] (-) TimerEvent: {}
+[33.559998] (-) TimerEvent: {}
+[33.660496] (-) TimerEvent: {}
+[33.760990] (-) TimerEvent: {}
+[33.861479] (-) TimerEvent: {}
+[33.961981] (-) TimerEvent: {}
+[34.062490] (-) TimerEvent: {}
+[34.110295] (dofbot_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dofbot_server\x1b[0m\n'}
+[34.162633] (-) TimerEvent: {}
+[34.263116] (-) TimerEvent: {}
+[34.363583] (-) TimerEvent: {}
+[34.464056] (-) TimerEvent: {}
+[34.553333] (dofbot_moveit) StdoutLine: {'line': b'[100%] Built target dofbot_server\n'}
+[34.564214] (-) TimerEvent: {}
+[34.582487] (dofbot_moveit) CommandEnded: {'returncode': 0}
+[34.583356] (dofbot_moveit) JobProgress: {'identifier': 'dofbot_moveit', 'progress': 'install'}
+[34.583428] (dofbot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_moveit'], 'cwd': '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 59308 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/lib/aarch64-linux-gnu:/usr/local/lib:/usr/lib:/usr/lib/aarch64-linux-gnu:/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ASCEND_TOOLKIT_HOME', '/usr/local/Ascend/ascend-toolkit/latest'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('ASCEND_OPP_PATH', '/usr/local/Ascend/ascend-toolkit/latest/opp'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '10'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/opt/ros/humble/bin:/usr/local/Ascend/ascend-toolkit/latest/bin:/usr/local/Ascend/ascend-toolkit/latest/compiler/ccec_compiler/bin:/usr/local/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/usr/local/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TOOLCHAIN_HOME', '/usr/local/Ascend/ascend-toolkit/latest/toolkit'), ('ASCEND_AICPU_PATH', '/usr/local/Ascend/ascend-toolkit/latest'), ('PWD', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/build/dofbot_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/usr/local/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.137.1 59308 192.168.137.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/Ascend/ascend-toolkit/latest/python/site-packages:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe:'), ('ASCEND_HOME_PATH', '/usr/local/Ascend/ascend-toolkit/latest'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_info:/opt/ros/humble')]), 'shell': False}
+[34.600651] (dofbot_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.601167] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/lib/dofbot_moveit/dofbot_server\n'}
+[34.602556] (dofbot_moveit) StdoutLine: {'line': b'-- Set runtime path of "/root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/lib/dofbot_moveit/dofbot_server" to ""\n'}
+[34.602769] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/launch\n'}
+[34.602977] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/launch/kinematic_server.launch.py\n'}
+[34.603564] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch.py\n'}
+[34.603908] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/config\n'}
+[34.604118] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/config/server_param.yaml\n'}
+[34.604581] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/ament_index/resource_index/package_run_dependencies/dofbot_moveit\n'}
+[34.604910] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/ament_index/resource_index/parent_prefix_path/dofbot_moveit\n'}
+[34.605191] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/environment/ament_prefix_path.sh\n'}
+[34.605413] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/environment/ament_prefix_path.dsv\n'}
+[34.605636] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/environment/path.sh\n'}
+[34.605850] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/environment/path.dsv\n'}
+[34.606060] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/local_setup.bash\n'}
+[34.606264] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/local_setup.sh\n'}
+[34.606482] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/local_setup.zsh\n'}
+[34.606682] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/local_setup.dsv\n'}
+[34.606880] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/package.dsv\n'}
+[34.607147] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/ament_index/resource_index/packages/dofbot_moveit\n'}
+[34.607436] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[34.607648] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[34.607863] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig.cmake\n'}
+[34.608057] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig-version.cmake\n'}
+[34.608253] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/package.xml\n'}
+[34.608437] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/launch\n'}
+[34.608655] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/launch/kinematic_server.launch.py\n'}
+[34.608950] (dofbot_moveit) StdoutLine: {'line': b'-- Up-to-date: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/launch/dofbot_moveit.launch.py\n'}
+[34.609184] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/rviz\n'}
+[34.609358] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/rviz/urdf.rviz\n'}
+[34.609551] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/rviz/dofbot.rviz\n'}
+[34.609739] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/urdf\n'}
+[34.609929] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/urdf/dofbot.urdf\n'}
+[34.610441] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/meshes\n'}
+[34.610643] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/meshes/base_link.STL\n'}
+[34.664338] (-) TimerEvent: {}
+[34.697566] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/meshes/link5.STL\n'}
+[34.764475] (-) TimerEvent: {}
+[34.835926] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/meshes/link3.STL\n'}
+[34.864553] (-) TimerEvent: {}
+[34.964961] (-) TimerEvent: {}
+[34.975167] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/meshes/link2.STL\n'}
+[35.065114] (-) TimerEvent: {}
+[35.125254] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/meshes/link4.STL\n'}
+[35.165207] (-) TimerEvent: {}
+[35.265677] (-) TimerEvent: {}
+[35.350574] (dofbot_moveit) StdoutLine: {'line': b'-- Installing: /root/ascend-devkit/src/E2E-Sample/ros2_robot_arm/ros2_ws/install/dofbot_moveit/share/dofbot_moveit/meshes/link1.STL\n'}
+[35.365815] (-) TimerEvent: {}
+[35.458986] (dofbot_moveit) CommandEnded: {'returncode': 0}
+[35.465998] (-) TimerEvent: {}
+[35.487137] (dofbot_moveit) JobEnded: {'identifier': 'dofbot_moveit', 'rc': 0}
+[35.488668] (-) EventReactorShutdown: {}

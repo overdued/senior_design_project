@@ -1,0 +1,22 @@
+./objects/quaternionmathfunctions.o: \
+  ..\..\libraries\components\CMSIS\DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\QuaternionMathFunctions\arm_quaternion_norm_f32.c \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\quaternion_math_functions.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_math_types.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_compiler.h \
+  F:\keil5\ARM\ARMCLANG\include\stdint.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\Core\Include\cmsis_armclang.h \
+  F:\keil5\ARM\ARMCLANG\include\string.h \
+  F:\keil5\ARM\ARMCLANG\include\math.h \
+  F:\keil5\ARM\ARMCLANG\include\float.h \
+  F:\keil5\ARM\ARMCLANG\include\limits.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\arm_math_memory.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\none.h \
+  ..\..\libraries\components\eiq\tensorflow-lite\third_party\cmsis\CMSIS\DSP\Include\dsp\utils.h \
+  ..\..\libraries\components\CMSIS\DSP\Source\QuaternionMathFunctions\arm_quaternion_inverse_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\QuaternionMathFunctions\arm_quaternion_conjugate_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\QuaternionMathFunctions\arm_quaternion_normalize_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\QuaternionMathFunctions\arm_quaternion_product_single_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\QuaternionMathFunctions\arm_quaternion_product_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\QuaternionMathFunctions\arm_quaternion2rotation_f32.c \
+  ..\..\libraries\components\CMSIS\DSP\Source\QuaternionMathFunctions\arm_rotation2quaternion_f32.c
