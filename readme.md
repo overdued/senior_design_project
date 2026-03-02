@@ -7,3 +7,5 @@
     6.小车上位机Atlas 200IDK E2 的核心代码在小车整体运行代码中
 主要项目体现在“整体工作视频”这个视频中，还有“可玩性视频”中
 tree.txt描述了整个文件夹的结构
+yolov8训练模型pt，onnx，om模型在链接：https://pan.baidu.com/s/1d--mQ3R1Xsr-kObsIJRHBw 
+提取码：1111中
